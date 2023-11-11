@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: e8aebd90d5d6c0f43a07f4dac4aa6cda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7756225068560691599
+    second: die right+400_0
+  - first:
+      213: 1485332244016939211
+    second: die right+400_1
+  - first:
+      213: 3549907809708334717
+    second: die right+400_2
+  - first:
+      213: 6844423818751611074
+    second: die right+400_3
+  - first:
+      213: 5162537827529630208
+    second: die right+400_4
+  - first:
+      213: -3333928749742003276
+    second: die right+400_5
+  - first:
+      213: 521904921906189209
+    second: die right+400_6
+  - first:
+      213: -7511433971446871006
+    second: die right+400_7
+  - first:
+      213: -6215122057583091010
+    second: die right+400_8
+  - first:
+      213: 8176402749269312249
+    second: die right+400_9
+  - first:
+      213: -7252444761368024886
+    second: die right+400_10
+  - first:
+      213: 7725625600996353762
+    second: die right+400_11
+  - first:
+      213: -2445020804976862712
+    second: die right+400_12
+  - first:
+      213: 4689542556070130042
+    second: die right+400_13
+  - first:
+      213: 4338934965468916840
+    second: die right+400_14
+  - first:
+      213: -7488124187319330583
+    second: die right+400_15
+  - first:
+      213: 4181035861829456046
+    second: die right+400_16
+  - first:
+      213: 7016278590592250510
+    second: die right+400_17
+  - first:
+      213: -700144362106727468
+    second: die right+400_18
+  - first:
+      213: -2756699727501227014
+    second: die right+400_19
+  - first:
+      213: -1402933957000660445
+    second: die right+400_20
+  - first:
+      213: 3690957378844718946
+    second: die right+400_21
+  - first:
+      213: -8395679059052194120
+    second: die right+400_22
+  - first:
+      213: 5999678485617380568
+    second: die right+400_23
+  - first:
+      213: 4763492954099049219
+    second: die right+400_24
+  - first:
+      213: 7456883326852786119
+    second: die right+400_25
+  - first:
+      213: -8956187147767474104
+    second: die right+400_26
+  - first:
+      213: 3026482164221663765
+    second: die right+400_27
+  - first:
+      213: -5268209479061256076
+    second: die right+400_28
+  - first:
+      213: -7411950438871608675
+    second: die right+400_29
+  - first:
+      213: 4225522081820837504
+    second: die right+400_30
+  - first:
+      213: -8098338892869096872
+    second: die right+400_31
+  - first:
+      213: 6951234183287194012
+    second: die right+400_32
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: die right+400_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 75
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ec576f46a5c5490800000000000000
+      internalID: -7756225068560691599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 71
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0401a6ec5fc9410800000000000000
+      internalID: 1485332244016939211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 71
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7edc0f385ec34130800000000000000
+      internalID: 3549907809708334717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_3
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 71
+        width: 98
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c099e823374cfe50800000000000000
+      internalID: 6844423818751611074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_4
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 71
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002ab654dc405a740800000000000000
+      internalID: 5162537827529630208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_5
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 71
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb6a2d47718bb1d0800000000000000
+      internalID: -3333928749742003276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_6
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9931fb4e2cd2e3700800000000000000
+      internalID: 521904921906189209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_7
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c8b1aa99602c790800000000000000
+      internalID: -7511433971446871006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_8
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2a012fa637fb9a0800000000000000
+      internalID: -6215122057583091010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_9
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 107
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f289b2eafa687170800000000000000
+      internalID: 8176402749269312249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_10
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 95
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac824852ae32a5b90800000000000000
+      internalID: -7252444761368024886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_11
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 103
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e62d0f4d8fe63b60800000000000000
+      internalID: 7725625600996353762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_12
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a1aea388a811ed0800000000000000
+      internalID: -2445020804976862712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_13
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7133a5cb1a941140800000000000000
+      internalID: 4689542556070130042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_14
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ceb48cc5ef63c30800000000000000
+      internalID: 4338934965468916840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_15
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 75
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e812d4b9b6d41890800000000000000
+      internalID: -7488124187319330583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_16
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 75
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea09389d6f5060a30800000000000000
+      internalID: 4181035861829456046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_17
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82fd6d4434de5160800000000000000
+      internalID: 7016278590592250510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_18
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3d22589669846f0800000000000000
+      internalID: -700144362106727468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_19
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 75
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb8fd5143c3eb9d0800000000000000
+      internalID: -2756699727501227014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_20
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a74a9cff6c78ce0800000000000000
+      internalID: -1402933957000660445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_21
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26775273e2ae83330800000000000000
+      internalID: 3690957378844718946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_22
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b61205c06e8c7b80800000000000000
+      internalID: -8395679059052194120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_23
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc07c58bc3234350800000000000000
+      internalID: 5999678485617380568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_24
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303662b8a935b1240800000000000000
+      internalID: 4763492954099049219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_25
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 83
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7e794a0eb2c7760800000000000000
+      internalID: 7456883326852786119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_26
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 75
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8489663bd3b35b380800000000000000
+      internalID: -8956187147767474104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_27
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51adc7d4e79300a20800000000000000
+      internalID: 3026482164221663765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_28
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4784536146f83e6b0800000000000000
+      internalID: -5268209479061256076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_29
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92d1469856732990800000000000000
+      internalID: -7411950438871608675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_30
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 75
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086008512f114aa30800000000000000
+      internalID: 4225522081820837504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_31
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85aaecb0fabec9f80800000000000000
+      internalID: -8098338892869096872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die right+400_32
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 75
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91c26519aeb77060800000000000000
+      internalID: 6951234183287194012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      die right+400_0: -7756225068560691599
+      die right+400_1: 1485332244016939211
+      die right+400_10: -7252444761368024886
+      die right+400_11: 7725625600996353762
+      die right+400_12: -2445020804976862712
+      die right+400_13: 4689542556070130042
+      die right+400_14: 4338934965468916840
+      die right+400_15: -7488124187319330583
+      die right+400_16: 4181035861829456046
+      die right+400_17: 7016278590592250510
+      die right+400_18: -700144362106727468
+      die right+400_19: -2756699727501227014
+      die right+400_2: 3549907809708334717
+      die right+400_20: -1402933957000660445
+      die right+400_21: 3690957378844718946
+      die right+400_22: -8395679059052194120
+      die right+400_23: 5999678485617380568
+      die right+400_24: 4763492954099049219
+      die right+400_25: 7456883326852786119
+      die right+400_26: -8956187147767474104
+      die right+400_27: 3026482164221663765
+      die right+400_28: -5268209479061256076
+      die right+400_29: -7411950438871608675
+      die right+400_3: 6844423818751611074
+      die right+400_30: 4225522081820837504
+      die right+400_31: -8098338892869096872
+      die right+400_32: 6951234183287194012
+      die right+400_4: 5162537827529630208
+      die right+400_5: -3333928749742003276
+      die right+400_6: 521904921906189209
+      die right+400_7: -7511433971446871006
+      die right+400_8: -6215122057583091010
+      die right+400_9: 8176402749269312249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 0e2d163a4d10e5641a2708714fada540
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1378361974318859071
+    second: cataclysm+400_0
+  - first:
+      213: -1564030248696970944
+    second: cataclysm+400_1
+  - first:
+      213: 197392714132855019
+    second: cataclysm+400_2
+  - first:
+      213: -6200237011038862200
+    second: cataclysm+400_3
+  - first:
+      213: -1277802238046398379
+    second: cataclysm+400_4
+  - first:
+      213: -5839316100015057897
+    second: cataclysm+400_5
+  - first:
+      213: 5410416464340940468
+    second: cataclysm+400_6
+  - first:
+      213: 287058589119421058
+    second: cataclysm+400_7
+  - first:
+      213: -4707989356644369311
+    second: cataclysm+400_8
+  - first:
+      213: 1582041684110052952
+    second: cataclysm+400_9
+  - first:
+      213: -7248901597007731658
+    second: cataclysm+400_10
+  - first:
+      213: -445215027485107896
+    second: cataclysm+400_11
+  - first:
+      213: 7336341071087678946
+    second: cataclysm+400_12
+  - first:
+      213: -4560572261560384377
+    second: cataclysm+400_13
+  - first:
+      213: 6465566557746917438
+    second: cataclysm+400_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cataclysm+400_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 123
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f338e2ba9ece02310800000000000000
+      internalID: 1378361974318859071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 115
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041837086c27b4ae0800000000000000
+      internalID: -1564030248696970944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 115
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8932fa0a74db200800000000000000
+      internalID: 197392714132855019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 115
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8848cc9e94554f9a0800000000000000
+      internalID: -6200237011038862200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_4
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 107
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5589b0472a5544ee0800000000000000
+      internalID: -1277802238046398379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_5
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 103
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714126fe1f496fea0800000000000000
+      internalID: -5839316100015057897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_6
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 99
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b677f3db19a51b40800000000000000
+      internalID: 5410416464340940468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 87
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a10321446dbf300800000000000000
+      internalID: 287058589119421058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_8
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 79
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c74e6cf9cd9aeb0800000000000000
+      internalID: -4707989356644369311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_9
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 83
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e8d39978a84f510800000000000000
+      internalID: 1582041684110052952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_10
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 67
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634a792676ab66b90800000000000000
+      internalID: -7248901597007731658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_11
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 79
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84995169a4742d9f0800000000000000
+      internalID: -445215027485107896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_12
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 103
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e53a45a55befc560800000000000000
+      internalID: 7336341071087678946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_13
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 115
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7848139e0b795b0c0800000000000000
+      internalID: -4560572261560384377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cataclysm+400_14
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 123
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30762a378e4ab950800000000000000
+      internalID: 6465566557746917438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cataclysm+400_0: 1378361974318859071
+      cataclysm+400_1: -1564030248696970944
+      cataclysm+400_10: -7248901597007731658
+      cataclysm+400_11: -445215027485107896
+      cataclysm+400_12: 7336341071087678946
+      cataclysm+400_13: -4560572261560384377
+      cataclysm+400_14: 6465566557746917438
+      cataclysm+400_2: 197392714132855019
+      cataclysm+400_3: -6200237011038862200
+      cataclysm+400_4: -1277802238046398379
+      cataclysm+400_5: -5839316100015057897
+      cataclysm+400_6: 5410416464340940468
+      cataclysm+400_7: 287058589119421058
+      cataclysm+400_8: -4707989356644369311
+      cataclysm+400_9: 1582041684110052952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

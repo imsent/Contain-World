@@ -1,0 +1,1199 @@
+fileFormatVersion: 2
+guid: 4ae8ff35784fb1a4d96abb681a1bcabf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2195682962685095763
+    second: teleportback left+400_0
+  - first:
+      213: -6259351757215010866
+    second: teleportback left+400_1
+  - first:
+      213: -2705046897047716684
+    second: teleportback left+400_2
+  - first:
+      213: 6839980230073380818
+    second: teleportback left+400_3
+  - first:
+      213: 5647745080603455966
+    second: teleportback left+400_4
+  - first:
+      213: -2416440324817721904
+    second: teleportback left+400_5
+  - first:
+      213: -93955879247062103
+    second: teleportback left+400_6
+  - first:
+      213: -2699062407796584037
+    second: teleportback left+400_7
+  - first:
+      213: -2889793454068949827
+    second: teleportback left+400_8
+  - first:
+      213: 4916280104246228391
+    second: teleportback left+400_9
+  - first:
+      213: -1162011354901684095
+    second: teleportback left+400_10
+  - first:
+      213: -3084614067715668129
+    second: teleportback left+400_11
+  - first:
+      213: -5082157812982161579
+    second: teleportback left+400_12
+  - first:
+      213: 3646293330745344025
+    second: teleportback left+400_13
+  - first:
+      213: -2184564167554011084
+    second: teleportback left+400_14
+  - first:
+      213: -6864351280326578590
+    second: teleportback left+400_15
+  - first:
+      213: 7176535645253496287
+    second: teleportback left+400_16
+  - first:
+      213: 8991353442071853331
+    second: teleportback left+400_17
+  - first:
+      213: 1830152456545978238
+    second: teleportback left+400_18
+  - first:
+      213: -5158271889029368201
+    second: teleportback left+400_19
+  - first:
+      213: -3475941886271137582
+    second: teleportback left+400_20
+  - first:
+      213: 1913165615102350320
+    second: teleportback left+400_21
+  - first:
+      213: -6572651241615333896
+    second: teleportback left+400_22
+  - first:
+      213: -7697716070112648667
+    second: teleportback left+400_23
+  - first:
+      213: -2735574392002053564
+    second: teleportback left+400_24
+  - first:
+      213: 8542609561332266900
+    second: teleportback left+400_25
+  - first:
+      213: 4459847865578823440
+    second: teleportback left+400_26
+  - first:
+      213: 4286091322974642870
+    second: teleportback left+400_27
+  - first:
+      213: 2145610856270220539
+    second: teleportback left+400_28
+  - first:
+      213: -7579597787006501386
+    second: teleportback left+400_29
+  - first:
+      213: -670875226948378492
+    second: teleportback left+400_30
+  - first:
+      213: 5073345234081451261
+    second: teleportback left+400_31
+  - first:
+      213: -3922689305211673290
+    second: teleportback left+400_32
+  - first:
+      213: -1104846114254367373
+    second: teleportback left+400_33
+  - first:
+      213: 235612770730815149
+    second: teleportback left+400_34
+  - first:
+      213: 7612445834572050948
+    second: teleportback left+400_35
+  - first:
+      213: 8922462723485071920
+    second: teleportback left+400_36
+  - first:
+      213: 7325150909303329235
+    second: teleportback left+400_37
+  - first:
+      213: -4794208332264566170
+    second: teleportback left+400_38
+  - first:
+      213: 3390461322646241105
+    second: teleportback left+400_39
+  - first:
+      213: 4024673937975582262
+    second: teleportback left+400_40
+  - first:
+      213: -6825685779784589168
+    second: teleportback left+400_41
+  - first:
+      213: 5137505552451846601
+    second: teleportback left+400_42
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teleportback left+400_0
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 155
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fe8367502a87e10800000000000000
+      internalID: 2195682962685095763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_1
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 151
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf6bf28db05229a0800000000000000
+      internalID: -6259351757215010866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_2
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 147
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcb2b8dd2eb57ad0800000000000000
+      internalID: -2705046897047716684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_3
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 63
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfe73c87cd7cee50800000000000000
+      internalID: 6839980230073380818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_4
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 155
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1345f4a32d06e40800000000000000
+      internalID: 5647745080603455966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_5
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 63
+        width: 54
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d56f42d354177ed0800000000000000
+      internalID: -2416440324817721904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_6
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 63
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab5be820a332bef0800000000000000
+      internalID: -93955879247062103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_7
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 63
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b919ca45a010b8ad0800000000000000
+      internalID: -2699062407796584037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_8
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 63
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc98ff0a2465e7d0800000000000000
+      internalID: -2889793454068949827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_9
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 119
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5baed05b22a3440800000000000000
+      internalID: 4916280104246228391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_10
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 139
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1806d1e44d4bfdfe0800000000000000
+      internalID: -1162011354901684095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_11
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 63
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5782a039df3135d0800000000000000
+      internalID: -3084614067715668129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_12
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 123
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fd8b0456c8879b0800000000000000
+      internalID: -5082157812982161579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_13
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 119
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910c3f5277c3a9230800000000000000
+      internalID: 3646293330745344025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 115
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43075e3c67edea1e0800000000000000
+      internalID: -2184564167554011084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_15
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 75
+        width: 14
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ee2a221ececb0a0800000000000000
+      internalID: -6864351280326578590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_16
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 107
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd634d752d289360800000000000000
+      internalID: 7176535645253496287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_17
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 63
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319bdac3154b7cc70800000000000000
+      internalID: 8991353442071853331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_18
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 107
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e774b3176f1066910800000000000000
+      internalID: 1830152456545978238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_19
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 91
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776758feb032a68b0800000000000000
+      internalID: -5158271889029368201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_20
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d858e05549f2cfc0800000000000000
+      internalID: -3475941886271137582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3daa49dfdec8a10800000000000000
+      internalID: 1913165615102350320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_22
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 95
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5ecf6e48049c4a0800000000000000
+      internalID: -6572651241615333896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_23
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 87
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522ae1bb4083c2590800000000000000
+      internalID: -7697716070112648667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_24
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 63
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aff0c8599490ad0800000000000000
+      internalID: -2735574392002053564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_25
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 91
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b016a2227d8670800000000000000
+      internalID: 8542609561332266900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_26
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f1c14210094ed30800000000000000
+      internalID: 4459847865578823440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_27
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2a9cc79514b7b30800000000000000
+      internalID: 4286091322974642870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_28
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 79
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc4532b4bdb6cd10800000000000000
+      internalID: 2145610856270220539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_29
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 63
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdf32d98fbdfc690800000000000000
+      internalID: -7579597787006501386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_30
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 83
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480e129198290b6f0800000000000000
+      internalID: -670875226948378492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_31
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 63
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc88545c94286640800000000000000
+      internalID: 5073345234081451261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_32
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 75
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63562a63cdecf89c0800000000000000
+      internalID: -3922689305211673290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_33
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 63
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375d564105ccaa0f0800000000000000
+      internalID: -1104846114254367373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_34
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 79
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daea4ff0190154300800000000000000
+      internalID: 235612770730815149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_35
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402b1917727d4a960800000000000000
+      internalID: 7612445834572050948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_36
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 71
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03afdf2e294f2db70800000000000000
+      internalID: 8922462723485071920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_37
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1972311f928a560800000000000000
+      internalID: 7325150909303329235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_38
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 67
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66217203cec877db0800000000000000
+      internalID: -4794208332264566170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_39
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 63
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fb7090c965d0f20800000000000000
+      internalID: 3390461322646241105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_40
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 63
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e9ec97f938ad730800000000000000
+      internalID: 4024673937975582262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_41
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090218382fa4641a0800000000000000
+      internalID: -6825685779784589168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleportback left+400_42
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c14d7d84161c4740800000000000000
+      internalID: 5137505552451846601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      teleportback left+400_0: 2195682962685095763
+      teleportback left+400_1: -6259351757215010866
+      teleportback left+400_10: -1162011354901684095
+      teleportback left+400_11: -3084614067715668129
+      teleportback left+400_12: -5082157812982161579
+      teleportback left+400_13: 3646293330745344025
+      teleportback left+400_14: -2184564167554011084
+      teleportback left+400_15: -6864351280326578590
+      teleportback left+400_16: 7176535645253496287
+      teleportback left+400_17: 8991353442071853331
+      teleportback left+400_18: 1830152456545978238
+      teleportback left+400_19: -5158271889029368201
+      teleportback left+400_2: -2705046897047716684
+      teleportback left+400_20: -3475941886271137582
+      teleportback left+400_21: 1913165615102350320
+      teleportback left+400_22: -6572651241615333896
+      teleportback left+400_23: -7697716070112648667
+      teleportback left+400_24: -2735574392002053564
+      teleportback left+400_25: 8542609561332266900
+      teleportback left+400_26: 4459847865578823440
+      teleportback left+400_27: 4286091322974642870
+      teleportback left+400_28: 2145610856270220539
+      teleportback left+400_29: -7579597787006501386
+      teleportback left+400_3: 6839980230073380818
+      teleportback left+400_30: -670875226948378492
+      teleportback left+400_31: 5073345234081451261
+      teleportback left+400_32: -3922689305211673290
+      teleportback left+400_33: -1104846114254367373
+      teleportback left+400_34: 235612770730815149
+      teleportback left+400_35: 7612445834572050948
+      teleportback left+400_36: 8922462723485071920
+      teleportback left+400_37: 7325150909303329235
+      teleportback left+400_38: -4794208332264566170
+      teleportback left+400_39: 3390461322646241105
+      teleportback left+400_4: 5647745080603455966
+      teleportback left+400_40: 4024673937975582262
+      teleportback left+400_41: -6825685779784589168
+      teleportback left+400_42: 5137505552451846601
+      teleportback left+400_5: -2416440324817721904
+      teleportback left+400_6: -93955879247062103
+      teleportback left+400_7: -2699062407796584037
+      teleportback left+400_8: -2889793454068949827
+      teleportback left+400_9: 4916280104246228391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

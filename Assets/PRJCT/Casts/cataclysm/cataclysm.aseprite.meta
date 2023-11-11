@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 8b05c4dcfb93430489b6b944ac538a87
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: cataclysm_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 121
+      width: 2
+      height: 2
+    spriteID: 069531a69d69ea84196c798032de7cb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 121}
+  - name: cataclysm_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -4.8333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 6
+      height: 6
+    spriteID: 014a74b8de473ce4caf6b2a94b5c4dc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: cataclysm_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -4.1428576}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 106
+      width: 6
+      height: 7
+    spriteID: 0023ffd8a46003844b0d75fbcd21a439
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 106}
+  - name: cataclysm_Frame_3
+    originalName: 
+    pivot: {x: 0.5714286, y: -5.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 4
+      width: 7
+      height: 5
+    spriteID: 20fb442c2c6cb1543b5ed1ceea55c537
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 4}
+  - name: cataclysm_Frame_4
+    originalName: 
+    pivot: {x: 0.4166667, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 106
+      width: 12
+      height: 12
+    spriteID: fc01b46775e6d0f468f48b4c9e991969
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 106}
+  - name: cataclysm_Frame_5
+    originalName: 
+    pivot: {x: 0.3846154, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 64
+      width: 13
+      height: 13
+    spriteID: 50412fc662a1dd24b9eebf2621dc4d88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 64}
+  - name: cataclysm_Frame_6
+    originalName: 
+    pivot: {x: 0.53333336, y: -1.5625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 15
+      height: 16
+    spriteID: d6ac3a77b65c96f43895f18d9fa77904
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: cataclysm_Frame_7
+    originalName: 
+    pivot: {x: 0.47619048, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 36
+      width: 21
+      height: 20
+    spriteID: fee34a1f1c65f694e9a61e047006f74e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 36}
+  - name: cataclysm_Frame_8
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 42
+      width: 24
+      height: 24
+    spriteID: 969922ea359040d429dd2c3fc051483a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 42}
+  - name: cataclysm_Frame_9
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 23
+      height: 24
+    spriteID: eae82b1a2e822c248882629cc20aa7b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: cataclysm_Frame_10
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 30
+    spriteID: 560721d45e5e2f044b990731c9f3e34f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: cataclysm_Frame_11
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 74
+      width: 24
+      height: 24
+    spriteID: cad9e93d959a5a645949bc7d93aeca7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 74}
+  - name: cataclysm_Frame_12
+    originalName: 
+    pivot: {x: 0.3846154, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 85
+      width: 13
+      height: 13
+    spriteID: 5d7282d5d6629de4db0567d82462b1ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 85}
+  - name: cataclysm_Frame_13
+    originalName: 
+    pivot: {x: 0.5714286, y: -5.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 17
+      width: 7
+      height: 5
+    spriteID: a9ec31b0c9fb54d4f8344a8263bb99bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 17}
+  - name: cataclysm_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 64
+      width: 2
+      height: 2
+    spriteID: 96b4c5a8b0bec7042ad598a3c1eb4a3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 64}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1709256347
+    name: cataclysm
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: cataclysm_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 31
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 069531a69d69ea84196c798032de7cb3
+    - name: cataclysm_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 29
+        y: 29
+        width: 6
+        height: 6
+      spriteId: 014a74b8de473ce4caf6b2a94b5c4dc6
+    - name: cataclysm_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 29
+        y: 29
+        width: 6
+        height: 7
+      spriteId: 0023ffd8a46003844b0d75fbcd21a439
+    - name: cataclysm_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 28
+        y: 29
+        width: 7
+        height: 5
+      spriteId: 20fb442c2c6cb1543b5ed1ceea55c537
+    - name: cataclysm_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 27
+        width: 12
+        height: 12
+      spriteId: fc01b46775e6d0f468f48b4c9e991969
+    - name: cataclysm_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 27
+        y: 26
+        width: 13
+        height: 13
+      spriteId: 50412fc662a1dd24b9eebf2621dc4d88
+    - name: cataclysm_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 25
+        width: 15
+        height: 16
+      spriteId: d6ac3a77b65c96f43895f18d9fa77904
+    - name: cataclysm_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 22
+        y: 22
+        width: 21
+        height: 20
+      spriteId: fee34a1f1c65f694e9a61e047006f74e
+    - name: cataclysm_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 18
+        y: 20
+        width: 24
+        height: 24
+      spriteId: 969922ea359040d429dd2c3fc051483a
+    - name: cataclysm_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 20
+        y: 21
+        width: 23
+        height: 24
+      spriteId: eae82b1a2e822c248882629cc20aa7b9
+    - name: cataclysm_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 17
+        width: 30
+        height: 30
+      spriteId: 560721d45e5e2f044b990731c9f3e34f
+    - name: cataclysm_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 18
+        y: 20
+        width: 24
+        height: 24
+      spriteId: cad9e93d959a5a645949bc7d93aeca7b
+    - name: cataclysm_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 27
+        y: 26
+        width: 13
+        height: 13
+      spriteId: 5d7282d5d6629de4db0567d82462b1ef
+    - name: cataclysm_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 28
+        y: 29
+        width: 7
+        height: 5
+      spriteId: a9ec31b0c9fb54d4f8344a8263bb99bc
+    - name: cataclysm_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 31
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 96b4c5a8b0bec7042ad598a3c1eb4a3e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

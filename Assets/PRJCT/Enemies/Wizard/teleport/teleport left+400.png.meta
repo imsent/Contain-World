@@ -1,0 +1,1199 @@
+fileFormatVersion: 2
+guid: 5ea2ae1905258bf4a99eeca293abb7a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 267712372158093840
+    second: teleport left+400_0
+  - first:
+      213: 1742935575289257494
+    second: teleport left+400_1
+  - first:
+      213: 7627831305080938907
+    second: teleport left+400_2
+  - first:
+      213: -5869358811695962151
+    second: teleport left+400_3
+  - first:
+      213: -7794593093493478510
+    second: teleport left+400_4
+  - first:
+      213: -296257636865166557
+    second: teleport left+400_5
+  - first:
+      213: 6467736908907873733
+    second: teleport left+400_6
+  - first:
+      213: 4498817451784442836
+    second: teleport left+400_7
+  - first:
+      213: 4879699121407524161
+    second: teleport left+400_8
+  - first:
+      213: -790382040800249376
+    second: teleport left+400_9
+  - first:
+      213: -757223520756793161
+    second: teleport left+400_10
+  - first:
+      213: 9002314204279653912
+    second: teleport left+400_11
+  - first:
+      213: -6055951396102022824
+    second: teleport left+400_12
+  - first:
+      213: 4752149592209632940
+    second: teleport left+400_13
+  - first:
+      213: -6668667947410596863
+    second: teleport left+400_14
+  - first:
+      213: -2468406079616773098
+    second: teleport left+400_15
+  - first:
+      213: 3492529682984838281
+    second: teleport left+400_16
+  - first:
+      213: 8923381569886490439
+    second: teleport left+400_17
+  - first:
+      213: 7829115582905182700
+    second: teleport left+400_18
+  - first:
+      213: 2449648637400111997
+    second: teleport left+400_19
+  - first:
+      213: -2191335321968230292
+    second: teleport left+400_20
+  - first:
+      213: -3538473899780026921
+    second: teleport left+400_21
+  - first:
+      213: -19314371919480731
+    second: teleport left+400_22
+  - first:
+      213: -5443258933006476465
+    second: teleport left+400_23
+  - first:
+      213: -1338687795608800105
+    second: teleport left+400_24
+  - first:
+      213: 1232710306253269358
+    second: teleport left+400_25
+  - first:
+      213: 8019607414496760728
+    second: teleport left+400_26
+  - first:
+      213: -3118959461480653931
+    second: teleport left+400_27
+  - first:
+      213: 8608887945870748902
+    second: teleport left+400_28
+  - first:
+      213: -6916759423588732871
+    second: teleport left+400_29
+  - first:
+      213: 6466762755297795496
+    second: teleport left+400_30
+  - first:
+      213: -4865515225391257989
+    second: teleport left+400_31
+  - first:
+      213: 7793146177924219977
+    second: teleport left+400_32
+  - first:
+      213: 2077778742755628167
+    second: teleport left+400_33
+  - first:
+      213: 3587598721368359760
+    second: teleport left+400_34
+  - first:
+      213: -1592467757891171094
+    second: teleport left+400_35
+  - first:
+      213: -3510665121351643383
+    second: teleport left+400_36
+  - first:
+      213: 6408118853368384620
+    second: teleport left+400_37
+  - first:
+      213: 8966235082967563826
+    second: teleport left+400_38
+  - first:
+      213: 4965161631623636494
+    second: teleport left+400_39
+  - first:
+      213: -1297674653066486845
+    second: teleport left+400_40
+  - first:
+      213: 6283787142182236079
+    second: teleport left+400_41
+  - first:
+      213: -6985724621238895211
+    second: teleport left+400_42
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teleport left+400_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ad57cebfa17b300800000000000000
+      internalID: 267712372158093840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 63
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ed187dba6203810800000000000000
+      internalID: 1742935575289257494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 63
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9124f178208bd960800000000000000
+      internalID: 7627831305080938907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_3
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 63
+        width: 54
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7ad890249db8ea0800000000000000
+      internalID: -5869358811695962151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_4
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 63
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bab9501ea04d390800000000000000
+      internalID: -7794593093493478510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_5
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 155
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323b7a8bf3b73ebf0800000000000000
+      internalID: -296257636865166557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_6
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 155
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5032c737402c950800000000000000
+      internalID: 6467736908907873733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_7
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 151
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d390faf2a20f6e30800000000000000
+      internalID: 4498817451784442836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_8
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 147
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14df7464f7c28b340800000000000000
+      internalID: 4879699121407524161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_9
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 119
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9b045b8bff705f0800000000000000
+      internalID: -790382040800249376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_10
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 139
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b088b5483dcd75f0800000000000000
+      internalID: -757223520756793161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 63
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816ca8e8215aeec70800000000000000
+      internalID: 9002314204279653912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_12
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 75
+        width: 14
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859de428a40f4fba0800000000000000
+      internalID: -6055951396102022824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_13
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 123
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae2c2b40e603f140800000000000000
+      internalID: 4752149592209632940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_14
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 119
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cde8d75d12473a0800000000000000
+      internalID: -6668667947410596863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_15
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 115
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614170fafb57ebdd0800000000000000
+      internalID: -2468406079616773098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_16
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 91
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984a1d11e35f77030800000000000000
+      internalID: 3492529682984838281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_17
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f0a5c724836db70800000000000000
+      internalID: 8923381569886490439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_18
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 107
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9e988642b96ac60800000000000000
+      internalID: 7829115582905182700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_19
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 107
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bd0c8f476eef120800000000000000
+      internalID: 2449648637400111997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_20
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 63
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6041568220d691e0800000000000000
+      internalID: -2191335321968230292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_21
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 91
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddce9c5cb0d4eec0800000000000000
+      internalID: -3538473899780026921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_22
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568fdaa5ea16bbff0800000000000000
+      internalID: -19314371919480731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_23
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 87
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b5dad07d8a574b0800000000000000
+      internalID: -5443258933006476465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_24
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 63
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7943695ea860c6de0800000000000000
+      internalID: -1338687795608800105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_25
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69603b0e777b1110800000000000000
+      internalID: 1232710306253269358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_26
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 95
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8931b2b247e5b4f60800000000000000
+      internalID: 8019607414496760728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_27
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 79
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b1a9d05ea37b4d0800000000000000
+      internalID: -3118959461480653931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_28
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eca4c499f9e87770800000000000000
+      internalID: 8608887945870748902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_29
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 79
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930782863fbb200a0800000000000000
+      internalID: -6916759423588732871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_30
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 63
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad504ca67e8eb950800000000000000
+      internalID: 6466762755297795496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_31
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 75
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76ac4d5ea73a7cb0800000000000000
+      internalID: -4865515225391257989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_32
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 63
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944cdd1b821d62c60800000000000000
+      internalID: 7793146177924219977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_33
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 83
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7849ecb02c0c5dc10800000000000000
+      internalID: 2077778742755628167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_34
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 63
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0538ec77706b9c130800000000000000
+      internalID: 3587598721368359760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_35
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 63
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec42aee20b66e9e0800000000000000
+      internalID: -1592467757891171094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_36
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 67
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f4b742cac974fc0800000000000000
+      internalID: -3510665121351643383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_37
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c818d35263ee850800000000000000
+      internalID: 6408118853368384620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_38
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 71
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3de48d477e6c70800000000000000
+      internalID: 8966235082967563826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_39
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e066359823cc7e440800000000000000
+      internalID: 4965161631623636494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_40
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb91f547cbbdfde0800000000000000
+      internalID: -1297674653066486845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_41
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf60f5ec1f743750800000000000000
+      internalID: 6283787142182236079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleport left+400_42
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 63
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dfa5c0878bd0f90800000000000000
+      internalID: -6985724621238895211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      teleport left+400_0: 267712372158093840
+      teleport left+400_1: 1742935575289257494
+      teleport left+400_10: -757223520756793161
+      teleport left+400_11: 9002314204279653912
+      teleport left+400_12: -6055951396102022824
+      teleport left+400_13: 4752149592209632940
+      teleport left+400_14: -6668667947410596863
+      teleport left+400_15: -2468406079616773098
+      teleport left+400_16: 3492529682984838281
+      teleport left+400_17: 8923381569886490439
+      teleport left+400_18: 7829115582905182700
+      teleport left+400_19: 2449648637400111997
+      teleport left+400_2: 7627831305080938907
+      teleport left+400_20: -2191335321968230292
+      teleport left+400_21: -3538473899780026921
+      teleport left+400_22: -19314371919480731
+      teleport left+400_23: -5443258933006476465
+      teleport left+400_24: -1338687795608800105
+      teleport left+400_25: 1232710306253269358
+      teleport left+400_26: 8019607414496760728
+      teleport left+400_27: -3118959461480653931
+      teleport left+400_28: 8608887945870748902
+      teleport left+400_29: -6916759423588732871
+      teleport left+400_3: -5869358811695962151
+      teleport left+400_30: 6466762755297795496
+      teleport left+400_31: -4865515225391257989
+      teleport left+400_32: 7793146177924219977
+      teleport left+400_33: 2077778742755628167
+      teleport left+400_34: 3587598721368359760
+      teleport left+400_35: -1592467757891171094
+      teleport left+400_36: -3510665121351643383
+      teleport left+400_37: 6408118853368384620
+      teleport left+400_38: 8966235082967563826
+      teleport left+400_39: 4965161631623636494
+      teleport left+400_4: -7794593093493478510
+      teleport left+400_40: -1297674653066486845
+      teleport left+400_41: 6283787142182236079
+      teleport left+400_42: -6985724621238895211
+      teleport left+400_5: -296257636865166557
+      teleport left+400_6: 6467736908907873733
+      teleport left+400_7: 4498817451784442836
+      teleport left+400_8: 4879699121407524161
+      teleport left+400_9: -790382040800249376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: f1205981f2dea5b439315bcb85baf351
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7051049750718357782
+    second: dice walls new-export_0
+  - first:
+      213: 608195050773054823
+    second: dice walls new-export_1
+  - first:
+      213: -8595524285078030031
+    second: dice walls new-export_2
+  - first:
+      213: -6467415296243941840
+    second: dice walls new-export_3
+  - first:
+      213: -7382552541318253755
+    second: dice walls new-export_4
+  - first:
+      213: -5785660677035068879
+    second: dice walls new-export_5
+  - first:
+      213: -5272602480199640408
+    second: dice walls new-export_6
+  - first:
+      213: 4321874347857870098
+    second: dice walls new-export_7
+  - first:
+      213: 7937799738245327063
+    second: dice walls new-export_8
+  - first:
+      213: -3540439746409738607
+    second: dice walls new-export_9
+  - first:
+      213: 7237863359710713765
+    second: dice walls new-export_10
+  - first:
+      213: -7231234121718103648
+    second: dice walls new-export_11
+  - first:
+      213: 4190358535181922930
+    second: dice walls new-export_12
+  - first:
+      213: 7402290042526724475
+    second: dice walls new-export_13
+  - first:
+      213: 837735559518381096
+    second: dice walls new-export_14
+  - first:
+      213: 6532301473099695109
+    second: dice walls new-export_15
+  - first:
+      213: -754496102937678027
+    second: dice walls new-export_16
+  - first:
+      213: 2617292908392624093
+    second: dice walls new-export_17
+  - first:
+      213: -1960044575291170469
+    second: dice walls new-export_18
+  - first:
+      213: -1339427069706754926
+    second: dice walls new-export_19
+  - first:
+      213: -3719914747574297722
+    second: dice walls new-export_20
+  - first:
+      213: 7940340970125740806
+    second: dice walls new-export_21
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dice walls new-export_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 79
+        width: 102
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee53da1c93a52e90800000000000000
+      internalID: -7051049750718357782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 75
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7658a732d2eb07800800000000000000
+      internalID: 608195050773054823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 107
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1393ea9243096b880800000000000000
+      internalID: -8595524285078030031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_3
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 83
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03eb37ccd002f36a0800000000000000
+      internalID: -6467415296243941840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_4
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 75
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543711ff397eb8990800000000000000
+      internalID: -7382552541318253755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_5
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 163
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132f06a944435bfa0800000000000000
+      internalID: -5785660677035068879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_6
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 151
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa5bddcaf3f3d6b0800000000000000
+      internalID: -5272602480199640408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_7
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 95
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21df0f332d16afb30800000000000000
+      internalID: 4321874347857870098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_8
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 87
+        width: 46
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d82d404ecab82e60800000000000000
+      internalID: 7937799738245327063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_9
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 75
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ec2960fc4dddec0800000000000000
+      internalID: -3540439746409738607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_10
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 143
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a75f58b06e027460800000000000000
+      internalID: 7237863359710713765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_11
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 119
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a10f4701ee75ab90800000000000000
+      internalID: -7231234121718103648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_12
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 107
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2727b03e2e4272a30800000000000000
+      internalID: 4190358535181922930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 115
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71773d13973ab660800000000000000
+      internalID: 7402290042526724475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_14
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 107
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8246ec88d0c30ab00800000000000000
+      internalID: 837735559518381096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 91
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5044ed5849567aa50800000000000000
+      internalID: 6532301473099695109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_16
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 103
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fabf7bacd7785f0800000000000000
+      internalID: -754496102937678027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_17
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 95
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf24ed780e725420800000000000000
+      internalID: 2617292908392624093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_18
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 87
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51a6d1f7d58cc4e0800000000000000
+      internalID: -1960044575291170469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_19
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 83
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294269b3d26696de0800000000000000
+      internalID: -1339427069706754926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_20
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 75
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bd81cfe35306cc0800000000000000
+      internalID: -3719914747574297722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dice walls new-export_21
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 83
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b43d7ea02c13e60800000000000000
+      internalID: 7940340970125740806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dice walls new-export_0: -7051049750718357782
+      dice walls new-export_1: 608195050773054823
+      dice walls new-export_10: 7237863359710713765
+      dice walls new-export_11: -7231234121718103648
+      dice walls new-export_12: 4190358535181922930
+      dice walls new-export_13: 7402290042526724475
+      dice walls new-export_14: 837735559518381096
+      dice walls new-export_15: 6532301473099695109
+      dice walls new-export_16: -754496102937678027
+      dice walls new-export_17: 2617292908392624093
+      dice walls new-export_18: -1960044575291170469
+      dice walls new-export_19: -1339427069706754926
+      dice walls new-export_2: -8595524285078030031
+      dice walls new-export_20: -3719914747574297722
+      dice walls new-export_21: 7940340970125740806
+      dice walls new-export_3: -6467415296243941840
+      dice walls new-export_4: -7382552541318253755
+      dice walls new-export_5: -5785660677035068879
+      dice walls new-export_6: -5272602480199640408
+      dice walls new-export_7: 4321874347857870098
+      dice walls new-export_8: 7937799738245327063
+      dice walls new-export_9: -3540439746409738607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
