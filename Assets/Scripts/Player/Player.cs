@@ -1,16 +1,22 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public float speed;
 
-    private int stones;
+    public int stones;
 
-    private int trees;
+    public int trees;
+
+    public GameObject stoneCount;
+    
+    public GameObject treeCount;
 
     private Rigidbody2D rb;
 
@@ -27,6 +33,8 @@ public class Player : MonoBehaviour
 
     public GameObject upButton2;
 
+    public GameObject nextTower;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +45,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        treeCount.GetComponent<TMPro.TextMeshProUGUI>().text = trees.ToString();
+        stoneCount.GetComponent<TMPro.TextMeshProUGUI>().text = stones.ToString();
         direction.x = Input.GetAxisRaw(("Horizontal"));
         direction.y = Input.GetAxisRaw(("Vertical"));
         
@@ -59,6 +69,7 @@ public class Player : MonoBehaviour
                 case "Stone":
                     stones += 1;
                     inv = null;
+                    
                     break;
                 case "Tree":
                     trees += 1;
@@ -73,6 +84,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Tower"))
         {
             upButton1.gameObject.SetActive(true);
+            upButton1.gameObject.GetComponent<upLvlTower>().towerNow = other.gameObject;
+            upButton1.gameObject.GetComponent<upLvlTower>().towerNext = nextTower;
             upButton1.transform.position = Camera.main.WorldToScreenPoint(other.transform.position);
             upButton1.transform.localPosition = new Vector2(upButton1.transform.localPosition.x - 50,upButton1.transform.localPosition.y);
             upButton2.gameObject.SetActive(true);
