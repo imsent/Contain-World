@@ -24,6 +24,17 @@ public class UpTower : MonoBehaviour
     void Update()
     {
         recharge += Time.deltaTime;
+        if (recharge >= startRecharge)
+        {
+            Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPos.position, radius, enemyMask);
+            foreach (var i in enemy)
+            {
+                Debug.Log(i);
+                i.gameObject.GetComponent<EnemyNear>().TakeDamage(damage);
+                recharge = 0;
+                return;
+            }
+        }
         if (hp <= 0)
         {
             Destroy(gameObject);
@@ -32,14 +43,7 @@ public class UpTower : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        if (recharge >= startRecharge)
-        {
-            if (other.CompareTag("Enemy"))
-            {
-                OnAttack();
-                recharge = 0;
-            }
-        }
+        
     }
     
     public void TakeDamage(int damage)
@@ -53,10 +57,12 @@ public class UpTower : MonoBehaviour
     }
     public void OnAttack()
     {
+        Debug.Log("123");
         Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPos.position, radius, enemyMask);
         foreach (var i in enemy)
         {
-            i.GetComponent<EnemyNear>().TakeDamage(damage);
+            Debug.Log(i);
+            i.gameObject.GetComponent<EnemyNear>().TakeDamage(damage);
         }
     }
 }

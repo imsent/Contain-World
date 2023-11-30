@@ -12,7 +12,7 @@ public class SpawnZone : MonoBehaviour
     private float timer;
 
     public float distance = 3;
-    
+
     private void Start()
     {
         timer = timeSpawn;

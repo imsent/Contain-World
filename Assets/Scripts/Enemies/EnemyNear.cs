@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
 
@@ -18,34 +20,57 @@ public class EnemyNear : MonoBehaviour
 
     private float recharge;
     public float startRecharge;
+
+    
+    private GameObject closest;
+
+    public GameObject nearest;
+
+    public GameObject corpse;
     // Start is called before the first frame update
     
     void Start()
     {
-        baza = GameObject.FindGameObjectWithTag("Baza").GetComponent<Transform>();
+        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, baza.position, speed * Time.deltaTime);
-        recharge += Time.deltaTime;
         if (hp <= 0)
         {
+            Instantiate(corpse, transform.position, quaternion.identity);
             Destroy(gameObject);
         }
+        nearest = FindTower();
+        transform.position =
+            Vector2.MoveTowards(transform.position, nearest.transform.position, speed * Time.deltaTime);
+        recharge += Time.deltaTime;
+    }
+
+    private GameObject FindTower()
+    {
+        closest = GameObject.FindGameObjectWithTag("Baza");
+        var position = transform.position;
+        var distance = (closest.transform.position - position).sqrMagnitude;
+        foreach (var tower in GameObject.FindGameObjectsWithTag("Tower"))
+        {
+            var diff = tower.transform.position - position;
+            var curDistance = diff.sqrMagnitude;
+            if (!(curDistance < distance)) continue;
+            closest = tower;
+            distance = curDistance;
+        }
+        return closest;
     }
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        if (recharge >= startRecharge)
-        {
-            if (other.CompareTag("Baza"))
-            {
-                OnAttack();
-                recharge = 0;
-            }
-        }
+        if (!(recharge >= startRecharge)) return;
+        if (!other.CompareTag("Baza") && !other.CompareTag("Tower")) return;
+        OnAttack();
+        recharge = 0;
     }
 
     public void OnDrawGizmosSelected()
@@ -56,10 +81,15 @@ public class EnemyNear : MonoBehaviour
 
     public void OnAttack()
     {
-        Collider2D[] tower = Physics2D.OverlapCircleAll(attackPos.position, radius, TowerMask);
+        var tower = Physics2D.OverlapCircleAll(attackPos.position, radius, TowerMask);
         foreach (var i in tower)
         {
-            i.gameObject.GetComponent<Baza>().TakeDamage(damage);
+            if (i.gameObject.CompareTag("Baza"))
+            {
+                i.gameObject.GetComponent<Baza>().TakeDamage(damage);
+                return;
+            }
+            i.gameObject.GetComponent<UpTower>().TakeDamage(damage);
         }
     }
 

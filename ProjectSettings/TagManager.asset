@@ -9,6 +9,8 @@ TagManager:
   - Tree
   - Baza
   - Tower
+  - Enemy
+  - Corpse
   layers:
   - Default
   - TransparentFX

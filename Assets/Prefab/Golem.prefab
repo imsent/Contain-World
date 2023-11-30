@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8472916566872134621}
   m_Layer: 7
   m_Name: Golem
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,14 +174,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  hp: 100
+  hp: 10
   attackPos: {fileID: 6460967867747133848}
   TowerMask:
     serializedVersion: 2
     m_Bits: 64
   radius: 0.46
-  damage: 50
+  damage: 5
   startRecharge: 1
+  nearest: {fileID: 0}
+  corpse: {fileID: 8513315894256700480, guid: 37de8f92165cee048bc09571258f70f6, type: 3}
 --- !u!1 &8817439477856385254
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,7 +21,6 @@ public class Baza : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        Debug.Log("321123");
         hp -= damage;
     }
 }
