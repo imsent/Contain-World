@@ -52,13 +52,14 @@ public class Player : MonoBehaviour
     
     public bool canBuild;
 
-    public GameObject spawner;
-    private enemySpawn enemySpawn1;
+    public enemySpawn spawner;
 
+    public GameObject invModel;
+
+    public Result result;
     // Start is called before the first frame update
     void Start()
     {
-        enemySpawn1 = spawner.GetComponent<enemySpawn>();
         corpseNeeded.text = corpsesNeed.ToString();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -67,6 +68,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        invModel.transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
         treeCount.text = trees.ToString();
         stoneCount.text = stones.ToString();
         treeCount.color = trees < 5 ? new Color(194/255f,66/255f,66/255f) : new Color(95/255f,255/255f,130/255f);
@@ -78,15 +80,26 @@ public class Player : MonoBehaviour
             corpses = 0;
             zone.transform.localScale += new Vector3(10.5f, 8.4f, 0);
             lvl += 1;
-            enemySpawn1.SelectWave(lvl);
-            corpsesNeed = lvl switch
+            spawner.SelectWave(lvl);
+            switch (lvl)
             {
-                2 => 30,
-                3 => 40,
-                4 => 50,
-                5 => 60,
-                _ => corpsesNeed
-            };
+                case 2:
+                    corpsesNeed = 30;
+                    break;
+                case 3:
+                    corpsesNeed = 40;
+                    break;
+                case 4:
+                    corpsesNeed = 50;
+                    break;
+                case 5:
+                    corpsesNeed = 60;
+                    break;
+                case 6:
+                    result.resultGame(true);
+                    break;
+            }
+
             corpseNeeded.text = corpsesNeed.ToString();
         }
         direction.x = Input.GetAxisRaw(("Horizontal"));
@@ -106,6 +119,10 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Baza"))
         {
+            if (inv != null)
+            {
+                invModel.SetActive(false);
+            }
             switch (inv)
             {
                 case "Stone":
@@ -147,15 +164,24 @@ public class Player : MonoBehaviour
         {
             canBuild = true;
         }
-        if ((!other.gameObject.CompareTag("Tree") && !other.gameObject.CompareTag("Stone") &&
-             !other.gameObject.CompareTag("Corpse"))) return;
-        if (string.IsNullOrEmpty(inv))
-        {
-            inv = other.gameObject.tag;
-            Destroy(other.gameObject.GameObject());
-        }else if (inv == "build")
+
+        if (other.gameObject.CompareTag("Tower") && inv == "build")
         {
             canBuild = false;
+            return;
+        }
+        if ((!other.gameObject.CompareTag("Tree") && !other.gameObject.CompareTag("Stone") &&
+             !other.gameObject.CompareTag("Corpse"))) return;
+        if (inv == "build")
+        {
+            canBuild = false;
+            return;
+        }if (string.IsNullOrEmpty(inv))
+        {
+            invModel.GetComponent<SpriteRenderer>().sprite = other.gameObject.GetComponent<SpriteRenderer>().sprite;
+            invModel.SetActive(true);
+            inv = other.gameObject.tag;
+            Destroy(other.gameObject.GameObject());
         }
     }
 
@@ -176,7 +202,7 @@ public class Player : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         if ((other.gameObject.CompareTag("Tree") || other.gameObject.CompareTag("Stone") ||
-             other.gameObject.CompareTag("Corpse")) && inv == "build")
+             other.gameObject.CompareTag("Corpse") || other.gameObject.CompareTag("Tower")) && inv == "build")
         {
             canBuild = true;
         }

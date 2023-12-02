@@ -27,26 +27,42 @@ public class EnemyNear : MonoBehaviour
     public GameObject nearest;
 
     public GameObject corpse;
+
+    private Manager manager;
+    
     // Start is called before the first frame update
     
     void Start()
     {
-        
-
+        manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
+        manager.AddEnemy(this);
     }
 
     // Update is called once per frame
     void Update()
     {
+        recharge += Time.deltaTime;
         if (hp <= 0)
         {
             Instantiate(corpse, transform.position, quaternion.identity);
+            manager.RemoveEnemy(this);
+            manager.maxEnemy--;
             Destroy(gameObject);
         }
         nearest = FindTower();
-        transform.position =
-            Vector2.MoveTowards(transform.position, nearest.transform.position, speed * Time.deltaTime);
-        recharge += Time.deltaTime;
+        if (Vector2.Distance(transform.position, nearest.transform.position) > radius)
+        {
+            transform.position =
+                Vector2.MoveTowards(transform.position, nearest.transform.position, speed * Time.deltaTime);
+        }
+        else
+        {
+            if (!(recharge >= startRecharge)) return;
+            OnAttack();
+            recharge = 0;
+            
+        }
+        
     }
 
     private GameObject FindTower()
@@ -64,15 +80,7 @@ public class EnemyNear : MonoBehaviour
         }
         return closest;
     }
-
-    public void OnTriggerStay2D(Collider2D other)
-    {
-        if (!(recharge >= startRecharge)) return;
-        if (!other.CompareTag("Baza") && !other.CompareTag("Tower")) return;
-        OnAttack();
-        recharge = 0;
-    }
-
+    
     public void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.black;

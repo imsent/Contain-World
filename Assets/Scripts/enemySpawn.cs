@@ -13,7 +13,7 @@ public class enemySpawn : MonoBehaviour
 
     private float spawnerInterval;
 
-    public float maxEnemy = 20;
+    private Manager manager;
     
     public float timerWave = 60;
     
@@ -29,7 +29,8 @@ public class enemySpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        killsText.text = "Осталось " + maxEnemy + " врагов";
+        manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
+        killsText.text = "Осталось " + manager.maxEnemy + " врагов";
         spawnerInterval = startSpawnerInterval;
         waveLvl.text = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().lvl + " волна начнется через";
     }
@@ -37,6 +38,7 @@ public class enemySpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        killsText.text = "Осталось " + manager.maxEnemy + " врагов";
         if (!(timerWave <= 0))
         {
             timerWave -= Time.deltaTime;
@@ -49,32 +51,30 @@ public class enemySpawn : MonoBehaviour
             WaveKill.SetActive(true);
         }
 
-        if (maxEnemy == 0)
+        if (manager.maxEnemy == 0)
         {
             killsText.text = "Соберите все трупы, чтобы продолжить";
             return;
         }
         spawnerInterval -= Time.deltaTime;
         if (!(spawnerInterval <= 0)) return;
-        //Instantiate(Enemy, spawnPoint[Random.Range(0, spawnPoint.Length)].transform.position, Quaternion.identity);
-        maxEnemy--;
-        killsText.text = "Осталось " + maxEnemy + " врагов";
+        Instantiate(Enemy, spawnPoint[Random.Range(0, spawnPoint.Length)].transform.position, Quaternion.identity);
         spawnerInterval = startSpawnerInterval;
     }
     public void SelectWave(int lvl)
     {
         
-        maxEnemy = lvl switch
+        manager.maxEnemy = lvl switch
         {
             2 => 30,
             3 => 40,
             4 => 50,
             5 => 60,
-            _ => maxEnemy
+            _ => manager.maxEnemy
         };
         timerWave = 10;
         WaveTimer.SetActive(true);
-        killsText.text = "Осталось " + maxEnemy + " врагов";
+        killsText.text = "Осталось " + manager.maxEnemy + " врагов";
         WaveKill.SetActive(false);
         waveLvl.text = lvl + " волна начнется через";
     }

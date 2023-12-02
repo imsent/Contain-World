@@ -5,6 +5,8 @@ using UnityEngine;
 public class Baza : MonoBehaviour
 {
     public int hp;
+
+    public Result result;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,7 @@ public class Baza : MonoBehaviour
     {
         if (hp <= 0)
         {
+            result.resultGame(false);
             Destroy(gameObject);
         }
     }
