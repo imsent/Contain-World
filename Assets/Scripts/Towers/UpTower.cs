@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class UpTower : MonoBehaviour
 {
-    public int hp;
+    public float hp;
+    private float maxHP;
     
 
     public Transform attackPos;
@@ -22,10 +23,17 @@ public class UpTower : MonoBehaviour
 
     public GameObject ball;
     
+    public SpriteRenderer healthBar;
+    
+    public SpriteRenderer backGround;
+    
     // Start is called before the first frame update
     void Start()
     {
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
+        maxHP = hp;
+        healthBar.size = new Vector2(1.02f, 0.14f);
+        backGround.size = new Vector2(1.02f, 0.14f);
     }
 
     // Update is called once per frame
@@ -60,6 +68,7 @@ public class UpTower : MonoBehaviour
     public void TakeDamage(int damage)
     {
         hp -= damage;
+        healthBar.size = new Vector2(hp / maxHP, 0.14f);
     }
     public void OnDrawGizmosSelected()
     {

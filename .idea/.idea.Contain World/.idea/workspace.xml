@@ -6,20 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="525338f7-3495-43e5-8b90-51243d32b426" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Contain World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contain World/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Tilemap/16x16+400/build 2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Tilemap/16x16+400/build 2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Tilemap/16x16+400/build.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Tilemap/16x16+400/build.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/Slider.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/Slider.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/Slider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/Slider.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/SliderFill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/SliderFill.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Tilemap/16x16+400/trup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Tilemap/16x16+400/trup.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Golem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Golem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/build.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/build.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomCursor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomCursor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyNear.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyNear.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnZone.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Towers/Baza.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Towers/Baza.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Towers/UpTower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Towers/UpTower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemySpawn.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +66,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Новая папка (5)\Contain World.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Новая папка (3)\Contain World.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\pc312\Desktop\Bild" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -127,6 +131,9 @@
       <workItem from="1701368031142" duration="2736000" />
       <workItem from="1701444788180" duration="11902000" />
       <workItem from="1701510526812" duration="217000" />
+      <workItem from="1701511062375" duration="1502000" />
+      <workItem from="1701868149882" duration="3326000" />
+      <workItem from="1702506317452" duration="5025000" />
     </task>
     <servers />
   </component>

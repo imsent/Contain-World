@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e116c884fc3a9d642a03479647be19ed
+guid: e68b088fbf72fe14fabff50f82137c9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9169877530624898698
-    second: Slider_0
+      213: 6916353230609678174
+    second: hammer 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slider_0
+      name: hammer 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 565
-        height: 78
+        x: 3
+        y: 4
+        width: 58
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a86bbbea703f14f70800000000000000
-      internalID: 9169877530624898698
+      spriteID: e5f7d9b6e92dbff50800000000000000
+      internalID: 6916353230609678174
       vertices: []
       indices: 
       edges: []
@@ -133,14 +133,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hammer 1_0: 6916353230609678174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

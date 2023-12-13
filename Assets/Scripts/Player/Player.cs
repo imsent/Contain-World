@@ -60,6 +60,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         corpseNeeded.text = corpsesNeed.ToString();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -147,13 +148,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Tower") && false)
         {
             upButton1.gameObject.SetActive(true);
-            upButton1.gameObject.GetComponent<upLvlTower>().towerNow = other.gameObject;
-            upButton1.gameObject.GetComponent<upLvlTower>().towerNext = nextTower;
             upButton1.transform.position = Camera.main.WorldToScreenPoint(other.transform.position);
-            upButton1.transform.localPosition = new Vector2(upButton1.transform.localPosition.x - 50,upButton1.transform.localPosition.y);
-            upButton2.gameObject.SetActive(true);
-            upButton2.transform.position = Camera.main.WorldToScreenPoint(other.transform.position);
-            upButton2.transform.localPosition = new Vector2(upButton2.transform.localPosition.x + 50,upButton2.transform.localPosition.y);
+            upButton1.transform.localPosition = new Vector2(upButton2.transform.localPosition.x + 50,upButton2.transform.localPosition.y);
 
         }
     }
@@ -165,24 +161,21 @@ public class Player : MonoBehaviour
             canBuild = true;
         }
 
-        if (other.gameObject.CompareTag("Tower") && inv == "build")
+        if (other.gameObject.CompareTag("Tower") || inv == "build")
         {
             canBuild = false;
             return;
         }
+        
         if ((!other.gameObject.CompareTag("Tree") && !other.gameObject.CompareTag("Stone") &&
              !other.gameObject.CompareTag("Corpse"))) return;
-        if (inv == "build")
-        {
-            canBuild = false;
-            return;
-        }if (string.IsNullOrEmpty(inv))
-        {
-            invModel.GetComponent<SpriteRenderer>().sprite = other.gameObject.GetComponent<SpriteRenderer>().sprite;
-            invModel.SetActive(true);
-            inv = other.gameObject.tag;
-            Destroy(other.gameObject.GameObject());
-        }
+
+        if (!string.IsNullOrEmpty(inv)) return;
+        
+        invModel.GetComponent<SpriteRenderer>().sprite = other.gameObject.GetComponent<SpriteRenderer>().sprite;
+        invModel.SetActive(true);
+        inv = other.gameObject.tag;
+        Destroy(other.gameObject.GameObject());
     }
 
 

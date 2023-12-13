@@ -7,6 +7,10 @@ public class Baza : MonoBehaviour
     public int hp;
 
     public Result result;
+    
+    public Transform spawnPoint;
+
+    public GameObject Error;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +29,12 @@ public class Baza : MonoBehaviour
     public void TakeDamage(int damage)
     {
         hp -= damage;
+        var go = Instantiate(Error, spawnPoint.localPosition, Quaternion.identity);
+        go.transform.SetParent(spawnPoint.transform,true);
+        go.GetComponent<TMPro.TextMeshPro>().SetText("-" + damage);
+        go.GetComponent<TMPro.TextMeshPro>().fontSize = 2;
+        go.GetComponent<TMPro.TextMeshPro>().color = Color.red;
+        go.name = "no money";
+        Destroy(go,0.5f);
     }
 }

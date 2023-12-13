@@ -9,8 +9,8 @@ using UnityEngine;
 public class EnemyNear : MonoBehaviour
 {
     public float speed;
-    public int hp;
-
+    public float hp;
+    private float maxHP;
     private Transform baza;
 
     public Transform attackPos;
@@ -32,10 +32,17 @@ public class EnemyNear : MonoBehaviour
     
     // Start is called before the first frame update
     
+    public SpriteRenderer healthBar;
+    
+    public SpriteRenderer backGround;
+    
     void Start()
     {
+        maxHP = hp;
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         manager.AddEnemy(this);
+        healthBar.size = new Vector2(1.02f, 0.14f);
+        backGround.size = new Vector2(1.02f, 0.14f);
     }
 
     // Update is called once per frame
@@ -103,6 +110,7 @@ public class EnemyNear : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        healthBar.size = new Vector2(hp / maxHP, 0.14f);
         hp -= damage;
     }
     
