@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    public List<EnemyNear> EnemyList = new List<EnemyNear>();
+    public List<EnemyNear> EnemyList = new();
+
+    public int kills;
+
+    public int towerCountPlace;
+
+    public float zonePercent;
+
+    public int upCount;
 
     public float maxEnemy = 20;
     // Start is called before the first frame update

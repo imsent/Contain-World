@@ -242,10 +242,10 @@ TextureImporter:
       name: teleport+400_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 63
-        width: 74
-        height: 126
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: teleport+400_1
       rect:
         serializedVersion: 2
-        x: 327
-        y: 63
-        width: 74
-        height: 134
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: teleport+400_2
       rect:
         serializedVersion: 2
-        x: 583
-        y: 63
-        width: 74
-        height: 130
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: teleport+400_3
       rect:
         serializedVersion: 2
-        x: 855
-        y: 63
-        width: 54
-        height: 126
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: teleport+400_4
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 63
-        width: 54
-        height: 106
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: teleport+400_5
       rect:
         serializedVersion: 2
-        x: 1123
-        y: 155
-        width: 6
-        height: 18
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: teleport+400_6
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 147
-        width: 6
-        height: 10
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: teleport+400_7
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 151
-        width: 6
-        height: 10
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: teleport+400_8
       rect:
         serializedVersion: 2
-        x: 1399
-        y: 155
-        width: 10
-        height: 10
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,745 +427,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: teleport+400_9
-      rect:
-        serializedVersion: 2
-        x: 1367
-        y: 63
-        width: 30
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ea0bcbc531ba3550800000000000000
-      internalID: 6141415886483557092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_10
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 139
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41fea8a000d6600d0800000000000000
-      internalID: -3456955817015972076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_11
-      rect:
-        serializedVersion: 2
-        x: 1407
-        y: 119
-        width: 6
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2289a795e4814e290800000000000000
-      internalID: -7862132324694321118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_12
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 75
-        width: 14
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc7166c44979726c0800000000000000
-      internalID: -4168196266915391537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_13
-      rect:
-        serializedVersion: 2
-        x: 1635
-        y: 115
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e61a415906fe5d630800000000000000
-      internalID: 3951327446184534382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_14
-      rect:
-        serializedVersion: 2
-        x: 1647
-        y: 119
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63598c86d835e7810800000000000000
-      internalID: 1764939970789283126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_15
-      rect:
-        serializedVersion: 2
-        x: 1655
-        y: 123
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed8e20a88de460d20800000000000000
-      internalID: 3244367273502370014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_16
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 115
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75f7572b370906aa0800000000000000
-      internalID: -6169772662907895977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_17
-      rect:
-        serializedVersion: 2
-        x: 903
-        y: 91
-        width: 10
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8250200e3c155e370800000000000000
-      internalID: 8351170985747154216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_18
-      rect:
-        serializedVersion: 2
-        x: 1415
-        y: 107
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a8d96b28eefd4f10800000000000000
-      internalID: 2255739261496711330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_19
-      rect:
-        serializedVersion: 2
-        x: 1631
-        y: 63
-        width: 22
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8ec44801ace60f90800000000000000
-      internalID: -6987637595446129012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_20
-      rect:
-        serializedVersion: 2
-        x: 1651
-        y: 107
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 943e74068f3594370800000000000000
-      internalID: 8307263313893909321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_21
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 103
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45e4eb86624a56e90800000000000000
-      internalID: -7033034758196146604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_22
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 91
-        width: 6
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0d3bb683893da7c0800000000000000
-      internalID: -4058524452127032049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_23
-      rect:
-        serializedVersion: 2
-        x: 1651
-        y: 63
-        width: 14
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c9b37291390d3510800000000000000
-      internalID: 1530389556890941891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_24
-      rect:
-        serializedVersion: 2
-        x: 1663
-        y: 87
-        width: 6
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 032975af3c7dd8130800000000000000
-      internalID: 3570747316293308976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_25
-      rect:
-        serializedVersion: 2
-        x: 1903
-        y: 95
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d7f9e03a82fe0310800000000000000
-      internalID: 1373301611734628307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_26
-      rect:
-        serializedVersion: 2
-        x: 1911
-        y: 99
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa7cf9e00c7b36250800000000000000
-      internalID: 5936790769311401898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_27
-      rect:
-        serializedVersion: 2
-        x: 1159
-        y: 79
-        width: 10
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 485c8f91a83663bd0800000000000000
-      internalID: -2650821885868587644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_28
-      rect:
-        serializedVersion: 2
-        x: 1891
-        y: 95
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a9163268d04bbe20800000000000000
-      internalID: 3367356444494404004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_29
-      rect:
-        serializedVersion: 2
-        x: 1103
-        y: 79
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 054c5ee7f9799fe10800000000000000
-      internalID: 2231981801623372880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_30
-      rect:
-        serializedVersion: 2
-        x: 1407
-        y: 63
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ded66c8345eb00da0800000000000000
-      internalID: -5980571036208960019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_31
-      rect:
-        serializedVersion: 2
-        x: 1671
-        y: 75
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e1d921bca8574990800000000000000
-      internalID: -7401849963830193688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_32
-      rect:
-        serializedVersion: 2
-        x: 1895
-        y: 63
-        width: 10
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a42e54213276325c0800000000000000
-      internalID: -4241433023724789174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_33
-      rect:
-        serializedVersion: 2
-        x: 1907
-        y: 83
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d19041c9bf8599aa0800000000000000
-      internalID: -6153789578146477795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_34
-      rect:
-        serializedVersion: 2
-        x: 1919
-        y: 63
-        width: 6
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50477a1471dac4eb0800000000000000
-      internalID: -4734218792875887611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_35
-      rect:
-        serializedVersion: 2
-        x: 1359
-        y: 63
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49f19fe90283074d0800000000000000
-      internalID: -3138947227520000108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_36
-      rect:
-        serializedVersion: 2
-        x: 1907
-        y: 67
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8697f3acf559f480800000000000000
-      internalID: -8864959847931079026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_37
-      rect:
-        serializedVersion: 2
-        x: 2147
-        y: 71
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0d631c5e760a44c0800000000000000
-      internalID: -4302619354218664690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_38
-      rect:
-        serializedVersion: 2
-        x: 2159
-        y: 71
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbfe8eb4da76e97f0800000000000000
-      internalID: -603931306020507716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_39
-      rect:
-        serializedVersion: 2
-        x: 2167
-        y: 75
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: feccd7c91d50b6a30800000000000000
-      internalID: 4209464674539654383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_40
-      rect:
-        serializedVersion: 2
-        x: 1127
-        y: 63
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19bf774ffa6d03090800000000000000
-      internalID: -8056703682156692591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_41
-      rect:
-        serializedVersion: 2
-        x: 1403
-        y: 63
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a23899ef1ae956c0800000000000000
-      internalID: -4154031758488620377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_42
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 63
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 626b3526eeea91010800000000000000
-      internalID: 1160150717899716134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: teleport+400_43
-      rect:
-        serializedVersion: 2
-        x: 1887
-        y: 63
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 171a46b99c28402b0800000000000000
-      internalID: -5619222632644435599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d52fe5b26b08d0b489bde89a2a31d07b
     internalID: 0
     vertices: []
     indices: 
@@ -1175,48 +440,13 @@ TextureImporter:
     nameFileIdTable:
       teleport+400_0: -4344483488260281168
       teleport+400_1: -4037675639863638585
-      teleport+400_10: -3456955817015972076
-      teleport+400_11: -7862132324694321118
-      teleport+400_12: -4168196266915391537
-      teleport+400_13: 3951327446184534382
-      teleport+400_14: 1764939970789283126
-      teleport+400_15: 3244367273502370014
-      teleport+400_16: -6169772662907895977
-      teleport+400_17: 8351170985747154216
-      teleport+400_18: 2255739261496711330
-      teleport+400_19: -6987637595446129012
       teleport+400_2: 7819686088796785965
-      teleport+400_20: 8307263313893909321
-      teleport+400_21: -7033034758196146604
-      teleport+400_22: -4058524452127032049
-      teleport+400_23: 1530389556890941891
-      teleport+400_24: 3570747316293308976
-      teleport+400_25: 1373301611734628307
-      teleport+400_26: 5936790769311401898
-      teleport+400_27: -2650821885868587644
-      teleport+400_28: 3367356444494404004
-      teleport+400_29: 2231981801623372880
       teleport+400_3: 8470667635862450665
-      teleport+400_30: -5980571036208960019
-      teleport+400_31: -7401849963830193688
-      teleport+400_32: -4241433023724789174
-      teleport+400_33: -6153789578146477795
-      teleport+400_34: -4734218792875887611
-      teleport+400_35: -3138947227520000108
-      teleport+400_36: -8864959847931079026
-      teleport+400_37: -4302619354218664690
-      teleport+400_38: -603931306020507716
-      teleport+400_39: 4209464674539654383
       teleport+400_4: 4992772418482043299
-      teleport+400_40: -8056703682156692591
-      teleport+400_41: -4154031758488620377
-      teleport+400_42: 1160150717899716134
-      teleport+400_43: -5619222632644435599
       teleport+400_5: -647543545280852061
       teleport+400_6: 6002847332601161472
       teleport+400_7: -3802182543709817872
       teleport+400_8: -5583828048359739346
-      teleport+400_9: 6141415886483557092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

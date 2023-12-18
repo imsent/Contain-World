@@ -48,7 +48,7 @@ public class SpawnZone : MonoBehaviour
 
     private bool CheckSpawn(Vector3 pos)
     {
-        var colliders = Physics2D.OverlapBox(pos, sizeC,0);
-        return colliders;
+        var colliders = Physics2D.OverlapBoxAll(pos, sizeC,0);
+        return !(colliders.Length == 0 || (colliders.Length == 1 && colliders[0].gameObject.CompareTag("infection")));
     }
 }

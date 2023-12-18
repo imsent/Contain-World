@@ -11,6 +11,10 @@ public class Baza : MonoBehaviour
     public Transform spawnPoint;
 
     public GameObject Error;
+
+    public GameObject buildText;
+
+    public BuildScript buildScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,10 @@ public class Baza : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E) && buildText.activeSelf)
+        {
+            buildScript.ConstructionBuilding();
+        }
         if (hp <= 0)
         {
             result.resultGame(false);

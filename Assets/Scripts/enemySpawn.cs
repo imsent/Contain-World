@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class enemySpawn : MonoBehaviour
 {
-    public GameObject Enemy;
+    public GameObject[] Enemy;
 
     public Transform[] spawnPoint;
 
@@ -15,7 +15,7 @@ public class enemySpawn : MonoBehaviour
 
     private Manager manager;
     
-    public float timerWave = 60;
+    public float timerWave = 10;
     
     public TextMeshProUGUI timerText;
 
@@ -26,6 +26,15 @@ public class enemySpawn : MonoBehaviour
     public GameObject WaveTimer;
     
     public GameObject WaveKill;
+
+
+    private GameObject spawnNow;
+
+    private int chanceGolem = 5;
+
+    private int chanceWisp = 45;
+
+    private int chanceWizard = 50;
     // Start is called before the first frame update
     void Start()
     {
@@ -58,7 +67,22 @@ public class enemySpawn : MonoBehaviour
         }
         spawnerInterval -= Time.deltaTime;
         if (!(spawnerInterval <= 0)) return;
-        Instantiate(Enemy, spawnPoint[Random.Range(0, spawnPoint.Length)].transform.position, Quaternion.identity);
+
+        var random = Random.Range(0, 100);
+
+        if (random >= 0 && random < chanceGolem)
+        {
+            spawnNow = Enemy[0];
+        }else if (random >= chanceGolem && random < (chanceWisp + chanceGolem))
+        {
+            spawnNow = Enemy[1];
+        }
+        else
+        {
+            spawnNow = Enemy[2];
+        }
+        
+        Instantiate(spawnNow, spawnPoint[Random.Range(0, spawnPoint.Length)].transform.position, Quaternion.identity);
         spawnerInterval = startSpawnerInterval;
     }
     public void SelectWave(int lvl)

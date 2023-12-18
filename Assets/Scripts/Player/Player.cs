@@ -20,8 +20,6 @@ public class Player : MonoBehaviour
 
     public int lvl = 1;
 
-    public GameObject zone;
-
     public TextMeshProUGUI stoneCount;
     
     public TextMeshProUGUI treeCount;
@@ -40,26 +38,29 @@ public class Player : MonoBehaviour
     private Animator anim;
 
     public string inv;
-
     
-    public GameObject buildButton;
-
-    public GameObject upButton1;
-
-    public GameObject upButton2;
-
-    public GameObject nextTower;
     
-    public bool canBuild;
-
+    
     public enemySpawn spawner;
 
     public GameObject invModel;
 
     public Result result;
+    
+    
+    public GameObject[] infections;
+    
+    
+    public int nowUpgrade;
+
+
+    private Manager manager;
+
+    private bool upVision = false;
     // Start is called before the first frame update
     void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         Time.timeScale = 1f;
         corpseNeeded.text = corpsesNeed.ToString();
         rb = GetComponent<Rigidbody2D>();
@@ -79,9 +80,11 @@ public class Player : MonoBehaviour
         if (corpses == corpsesNeed)
         {
             corpses = 0;
-            zone.transform.localScale += new Vector3(10.5f, 8.4f, 0);
             lvl += 1;
+            manager.zonePercent += 0.2f;
             spawner.SelectWave(lvl);
+            infections[lvl-1].SetActive(true);
+            infections[lvl-2].SetActive(false);
             switch (lvl)
             {
                 case 2:
@@ -113,7 +116,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + direction * (speed * Time.fixedDeltaTime));
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -141,31 +144,18 @@ public class Player : MonoBehaviour
                     break;
             }
 
-            buildButton.gameObject.SetActive(true);
-            buildButton.transform.position = Camera.main.WorldToScreenPoint(other.transform.position);
+            other.gameObject.GetComponent<Baza>().buildText.SetActive(true);
         }
 
-        if (other.gameObject.CompareTag("Tower") && false)
-        {
-            upButton1.gameObject.SetActive(true);
-            upButton1.transform.position = Camera.main.WorldToScreenPoint(other.transform.position);
-            upButton1.transform.localPosition = new Vector2(upButton2.transform.localPosition.x + 50,upButton2.transform.localPosition.y);
-
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("buildZone"))
-        {
-            canBuild = true;
-        }
-
-        if (other.gameObject.CompareTag("Tower") || inv == "build")
-        {
-            canBuild = false;
-            return;
-        }
+        //if (other.gameObject.CompareTag("Tower"))
+        //{
+        //    other.gameObject.GetComponent<UpTower>().upText.SetActive(true);
+        //}
         
         if ((!other.gameObject.CompareTag("Tree") && !other.gameObject.CompareTag("Stone") &&
              !other.gameObject.CompareTag("Corpse"))) return;
@@ -183,25 +173,26 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Baza"))
         {
-            buildButton.gameObject.SetActive(false);
+            other.gameObject.GetComponent<Baza>().buildText.SetActive(false);
         }
-        if (other.gameObject.CompareTag("Tower") && false)
+        
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Tower") && !upVision)
         {
-            upButton1.gameObject.SetActive(false);
-            upButton2.gameObject.SetActive(false);
+            upVision = true;
+            other.gameObject.GetComponent<UpTower>().upText.SetActive(true);
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if ((other.gameObject.CompareTag("Tree") || other.gameObject.CompareTag("Stone") ||
-             other.gameObject.CompareTag("Corpse") || other.gameObject.CompareTag("Tower")) && inv == "build")
+        if (other.gameObject.CompareTag("Tower") && upVision)
         {
-            canBuild = true;
-        }
-        if (other.gameObject.CompareTag("buildZone"))
-        {
-            canBuild = false;
+            upVision = false;
+            other.gameObject.GetComponent<UpTower>().upText.SetActive(false);
         }
     }
 }

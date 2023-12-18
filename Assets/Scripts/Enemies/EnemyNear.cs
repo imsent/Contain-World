@@ -35,9 +35,11 @@ public class EnemyNear : MonoBehaviour
     public SpriteRenderer healthBar;
     
     public SpriteRenderer backGround;
-    
+
+    private Animator anim;
     void Start()
     {
+        anim = gameObject.GetComponent<Animator>();
         maxHP = hp;
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         manager.AddEnemy(this);
@@ -54,16 +56,20 @@ public class EnemyNear : MonoBehaviour
             Instantiate(corpse, transform.position, quaternion.identity);
             manager.RemoveEnemy(this);
             manager.maxEnemy--;
+            manager.kills += 1;
             Destroy(gameObject);
         }
         nearest = FindTower();
+        anim.SetFloat("swap", Convert.ToSingle(nearest.transform.position.x < transform.position.x));
         if (Vector2.Distance(transform.position, nearest.transform.position) > radius)
         {
             transform.position =
                 Vector2.MoveTowards(transform.position, nearest.transform.position, speed * Time.deltaTime);
+            anim.SetBool("move", true);
         }
         else
         {
+            anim.SetBool("move", false);
             if (!(recharge >= startRecharge)) return;
             OnAttack();
             recharge = 0;
@@ -96,6 +102,7 @@ public class EnemyNear : MonoBehaviour
 
     public void OnAttack()
     {
+        anim.SetBool("attack",true);
         var tower = Physics2D.OverlapCircleAll(attackPos.position, radius, TowerMask);
         foreach (var i in tower)
         {

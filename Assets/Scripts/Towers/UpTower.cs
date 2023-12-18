@@ -10,7 +10,6 @@ public class UpTower : MonoBehaviour
     
 
     public Transform attackPos;
-    public LayerMask enemyMask;
     public float radius;
     public int damage;
 
@@ -26,6 +25,8 @@ public class UpTower : MonoBehaviour
     public SpriteRenderer healthBar;
     
     public SpriteRenderer backGround;
+
+    public GameObject upText;
     
     // Start is called before the first frame update
     void Start()
@@ -39,21 +40,8 @@ public class UpTower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (targetEnemy == null)
-        {
-            targetEnemy = GetNearestEnemy();
-        }
-
-        if (targetEnemy != null && Vector2.Distance(transform.position, targetEnemy.transform.position) > radius)
-        {
-            targetEnemy = null;
-        }
-        recharge += Time.deltaTime;
-        if (recharge >= startRecharge)
-        {
-            recharge = 0;
-            Attack();
-        }
+        Attack();
+        UpgradeTower();
         if (hp <= 0)
         {
             Destroy(gameObject);
@@ -77,11 +65,39 @@ public class UpTower : MonoBehaviour
     }
     private void Attack()
     {
-        var newBall = Instantiate(ball, transform.position, Quaternion.identity);
+        if (targetEnemy == null)
+        {
+            targetEnemy = GetNearestEnemy();
+        }
+
+        if (targetEnemy != null && Vector2.Distance(transform.position, targetEnemy.transform.position) > radius)
+        {
+            targetEnemy = null;
+        }
+        recharge += Time.deltaTime;
+        if (recharge >= startRecharge)
+        {
+            recharge = 0;
+            onAttack();
+        }
+
+    }
+
+    private void UpgradeTower()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && upText.activeSelf)
+        {
+            return;
+        }
+
+    }
+
+    public void onAttack()
+    {
+        var newBall = Instantiate(ball, transform.position, Quaternion.identity, transform);
         newBall.GetComponent<Ball>().target = targetEnemy;
         newBall.GetComponent<Ball>().tower = this;
     }
-
     public List<EnemyNear> GetEnemiesInRange()
     {
         return manager.EnemyList

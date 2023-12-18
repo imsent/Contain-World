@@ -170,10 +170,10 @@ TextureImporter:
       name: attack left+400_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 63
-        width: 94
-        height: 126
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: attack left+400_1
       rect:
         serializedVersion: 2
-        x: 339
-        y: 63
-        width: 94
-        height: 126
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: attack left+400_2
       rect:
         serializedVersion: 2
-        x: 591
-        y: 63
-        width: 98
-        height: 126
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: attack left+400_3
       rect:
         serializedVersion: 2
-        x: 843
-        y: 151
-        width: 10
-        height: 10
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: attack left+400_4
       rect:
         serializedVersion: 2
-        x: 851
-        y: 63
-        width: 90
-        height: 126
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: attack left+400_5
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 159
-        width: 10
-        height: 10
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: attack left+400_6
       rect:
         serializedVersion: 2
-        x: 1099
-        y: 63
-        width: 98
-        height: 126
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: attack left+400_7
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 63
-        width: 86
-        height: 126
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: attack left+400_8
       rect:
         serializedVersion: 2
-        x: 1611
-        y: 155
-        width: 6
-        height: 6
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +359,10 @@ TextureImporter:
       name: attack left+400_9
       rect:
         serializedVersion: 2
-        x: 1623
-        y: 63
-        width: 86
-        height: 126
+        x: 2304
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: attack left+400_10
       rect:
         serializedVersion: 2
-        x: 1867
-        y: 63
-        width: 98
-        height: 126
+        x: 2560
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +401,10 @@ TextureImporter:
       name: attack left+400_11
       rect:
         serializedVersion: 2
-        x: 2127
-        y: 63
-        width: 90
-        height: 122
+        x: 2816
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,178 +418,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: attack left+400_12
-      rect:
-        serializedVersion: 2
-        x: 2383
-        y: 63
-        width: 90
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e308bd73d770b9670800000000000000
-      internalID: 8546432952255086654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_13
-      rect:
-        serializedVersion: 2
-        x: 2643
-        y: 63
-        width: 90
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 771c8abc12718d9b0800000000000000
-      internalID: -5055265147805187721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_14
-      rect:
-        serializedVersion: 2
-        x: 2899
-        y: 63
-        width: 90
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1676fce32595fd740800000000000000
-      internalID: 5178956306275329889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_15
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 139
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59677f777583500a0800000000000000
-      internalID: -6916059704431511915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_16
-      rect:
-        serializedVersion: 2
-        x: 1359
-        y: 135
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13e7a070cae8c60f0800000000000000
-      internalID: -1122365337618448847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_17
-      rect:
-        serializedVersion: 2
-        x: 1611
-        y: 143
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edfc8d41e58f313a0800000000000000
-      internalID: -6695735138009428002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_18
-      rect:
-        serializedVersion: 2
-        x: 1363
-        y: 127
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc51306c904e1a9e0800000000000000
-      internalID: -1611756460993997364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack left+400_19
-      rect:
-        serializedVersion: 2
-        x: 1615
-        y: 127
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bebccc0ffa143e20800000000000000
-      internalID: 3329315707267366577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dc53587e8ae4f1142bd8f76e41674d84
     internalID: 0
     vertices: []
     indices: 
@@ -601,14 +433,6 @@ TextureImporter:
       attack left+400_1: 8183504798881297325
       attack left+400_10: -134753324178669996
       attack left+400_11: 5828503535059692617
-      attack left+400_12: 8546432952255086654
-      attack left+400_13: -5055265147805187721
-      attack left+400_14: 5178956306275329889
-      attack left+400_15: -6916059704431511915
-      attack left+400_16: -1122365337618448847
-      attack left+400_17: -6695735138009428002
-      attack left+400_18: -1611756460993997364
-      attack left+400_19: 3329315707267366577
       attack left+400_2: -97491770874801073
       attack left+400_3: 7192473337218787269
       attack left+400_4: -189455055310198492
