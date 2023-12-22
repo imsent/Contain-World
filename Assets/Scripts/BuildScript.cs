@@ -13,11 +13,7 @@ public class BuildScript : MonoBehaviour
     
     // Start is called before the first frame update
     private Player playerinv;
-
-    public Transform spawnPoint;
-
-    public GameObject Error;
-
+    
     public GameObject buildText;
 
     public GameObject tower;
@@ -25,9 +21,12 @@ public class BuildScript : MonoBehaviour
     private readonly Vector2 sizeC = new(0.9f, 0.9f);
 
     private Manager manager;
+
+    private Baza Baza;
     // Update is called once per frame
     private void Start()
     {
+        Baza = GameObject.FindGameObjectWithTag("Baza").GetComponent<Baza>();
         playerinv = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
     }
@@ -49,13 +48,7 @@ public class BuildScript : MonoBehaviour
         }
         else
         {
-            var go = Instantiate(Error, spawnPoint.localPosition, Quaternion.identity);
-            go.transform.SetParent(spawnPoint.transform,true);
-            go.GetComponent<TMPro.TextMeshPro>().SetText("Вы не можете тут строить");
-            go.GetComponent<TMPro.TextMeshPro>().fontSize = 2;
-            go.GetComponent<TMPro.TextMeshPro>().color = Color.red;
-            go.name = "cantbuild";
-            Destroy(go,0.5f);
+            playerinv.Error("Вы не можете тут строить");
         }
     }
 
@@ -63,6 +56,7 @@ public class BuildScript : MonoBehaviour
     {
         if (playerinv.stones >= 5 && playerinv.trees >= 5)
         {
+            Baza.buildText.SetActive(false);
             playerinv.inv = "build";
             buildingToPlace = tower;
             buildText.SetActive(true);
@@ -71,13 +65,7 @@ public class BuildScript : MonoBehaviour
         }
         else
         {
-            var go = Instantiate(Error, spawnPoint.localPosition, Quaternion.identity);
-            go.transform.SetParent(spawnPoint.transform,true);
-            go.GetComponent<TMPro.TextMeshPro>().SetText("Не хватает ресурсов");
-            go.GetComponent<TMPro.TextMeshPro>().fontSize = 2;
-            go.GetComponent<TMPro.TextMeshPro>().color = Color.red;
-            go.name = "no money";
-            Destroy(go,0.5f);
+            playerinv.Error("Не хватает ресурсов");
         }
     }
 

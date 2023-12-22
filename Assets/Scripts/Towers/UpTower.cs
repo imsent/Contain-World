@@ -7,30 +7,42 @@ public class UpTower : MonoBehaviour
 {
     public float hp;
     private float maxHP;
+    public float protection;
     
 
     public Transform attackPos;
     public float radius;
-    public int damage;
+    public float damage;
 
     private float recharge;
     public float startRecharge;
     
     private Manager manager;
 
-    public EnemyNear targetEnemy = null;
+    public EnemyNear targetEnemy;
 
     public GameObject ball;
+    public int countBall;
     
     public SpriteRenderer healthBar;
     
     public SpriteRenderer backGround;
 
     public GameObject upText;
-    
+
+    private Animator anim;
+
+    public GameObject upgradeImage;
+
+    public bool regeneration;
+
+    private float timeRegen;
+
+    private float needTimeRegen = 3f;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         maxHP = hp;
         healthBar.size = new Vector2(1.02f, 0.14f);
@@ -42,21 +54,22 @@ public class UpTower : MonoBehaviour
     {
         Attack();
         UpgradeTower();
+        
         if (hp <= 0)
         {
             Destroy(gameObject);
         }
+
+        Regenerate();
     }
 
-    public void OnTriggerStay2D(Collider2D other)
+    public void TakeDamage(float damage)
     {
-        
-    }
-    
-    public void TakeDamage(int damage)
-    {
-        hp -= damage;
+        hp -= damage * (1f-protection);
         healthBar.size = new Vector2(hp / maxHP, 0.14f);
+        if (!regeneration) return;
+        timeRegen = 0f;
+        needTimeRegen = 3f;
     }
     public void OnDrawGizmosSelected()
     {
@@ -75,10 +88,10 @@ public class UpTower : MonoBehaviour
             targetEnemy = null;
         }
         recharge += Time.deltaTime;
-        if (recharge >= startRecharge)
+        if (targetEnemy != null && recharge >= startRecharge && Vector2.Distance(transform.position, targetEnemy.transform.position) < radius)
         {
+            anim.SetTrigger("attack");
             recharge = 0;
-            onAttack();
         }
 
     }
@@ -87,35 +100,51 @@ public class UpTower : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && upText.activeSelf)
         {
-            return;
+            manager.upgradeTower(this);
         }
-
     }
 
-    public void onAttack()
+    private void onAttack()
     {
-        var newBall = Instantiate(ball, transform.position, Quaternion.identity, transform);
-        newBall.GetComponent<Ball>().target = targetEnemy;
-        newBall.GetComponent<Ball>().tower = this;
+        for (var i = 0; i < countBall; i++)
+        {
+            var newBall = Instantiate(ball, transform.position, Quaternion.identity, transform);
+            newBall.GetComponent<Ball>().target = targetEnemy.gameObject;
+            newBall.GetComponent<Ball>().tower = gameObject;
+            newBall.GetComponent<Ball>().damage = damage;
+        }
     }
-    public List<EnemyNear> GetEnemiesInRange()
+
+    private IEnumerable<EnemyNear> GetEnemiesInRange()
     {
         return manager.EnemyList
             .Where(enemy => Vector2.Distance(transform.position, enemy.transform.position) <= radius).ToList();
     }
 
-    public EnemyNear GetNearestEnemy()
+    private EnemyNear GetNearestEnemy()
     {
         EnemyNear nearestEnemy = null;
         var smallestDistance = float.PositiveInfinity;
-        foreach (var enemy in GetEnemiesInRange())
+        foreach (var enemy in GetEnemiesInRange().Where(enemy => Vector2.Distance(transform.position, enemy.transform.position) < smallestDistance))
         {
-            if (Vector2.Distance(transform.position, enemy.transform.position) < smallestDistance)
-            {
-                smallestDistance = Vector2.Distance(transform.position, enemy.transform.position);
-                nearestEnemy = enemy;
-            }
+            smallestDistance = Vector2.Distance(transform.position, enemy.transform.position);
+            nearestEnemy = enemy;
         }
         return nearestEnemy;
+    }
+
+    private void Regenerate()
+    {
+        if (regeneration)
+        {
+            timeRegen += Time.deltaTime;
+            if (timeRegen >= needTimeRegen)
+            {
+                needTimeRegen += 1f;
+                hp += 5;
+                healthBar.size = new Vector2(hp / maxHP, 0.14f);
+                if (hp >= maxHP) hp = maxHP;
+            }
+        }
     }
 }

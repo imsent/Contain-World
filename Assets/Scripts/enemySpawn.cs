@@ -35,10 +35,13 @@ public class enemySpawn : MonoBehaviour
     private int chanceWisp = 45;
 
     private int chanceWizard = 50;
+
+    private float countSpawn;
     // Start is called before the first frame update
     void Start()
     {
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
+        countSpawn = manager.maxEnemy;
         killsText.text = "Осталось " + manager.maxEnemy + " врагов";
         spawnerInterval = startSpawnerInterval;
         waveLvl.text = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().lvl + " волна начнется через";
@@ -47,7 +50,6 @@ public class enemySpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        killsText.text = "Осталось " + manager.maxEnemy + " врагов";
         if (!(timerWave <= 0))
         {
             timerWave -= Time.deltaTime;
@@ -63,6 +65,11 @@ public class enemySpawn : MonoBehaviour
         if (manager.maxEnemy == 0)
         {
             killsText.text = "Соберите все трупы, чтобы продолжить";
+            return;
+        }
+        killsText.text = "Осталось " + manager.maxEnemy + " врагов";
+        if (countSpawn <= 0)
+        {
             return;
         }
         spawnerInterval -= Time.deltaTime;
@@ -83,19 +90,40 @@ public class enemySpawn : MonoBehaviour
         }
         
         Instantiate(spawnNow, spawnPoint[Random.Range(0, spawnPoint.Length)].transform.position, Quaternion.identity);
+        countSpawn--;
         spawnerInterval = startSpawnerInterval;
     }
     public void SelectWave(int lvl)
     {
-        
-        manager.maxEnemy = lvl switch
+        switch (lvl)
         {
-            2 => 30,
-            3 => 40,
-            4 => 50,
-            5 => 60,
-            _ => manager.maxEnemy
-        };
+            case 2:
+                manager.maxEnemy = 30;
+                chanceGolem = 10;
+                chanceWisp = 40;
+                chanceWizard = 50;
+                break;
+            case 3:
+                manager.maxEnemy = 40;
+                chanceGolem = 15;
+                chanceWisp = 40;
+                chanceWizard = 45;
+                break;
+            case 4:
+                manager.maxEnemy = 50;
+                chanceGolem = 20;
+                chanceWisp = 40;
+                chanceWizard = 40;
+                break;
+            case 5:
+                manager.maxEnemy = 60;
+                chanceGolem = 30;
+                chanceWisp = 50;
+                chanceWizard = 20;
+                break;
+        }
+
+        countSpawn = manager.maxEnemy;
         timerWave = 10;
         WaveTimer.SetActive(true);
         killsText.text = "Осталось " + manager.maxEnemy + " врагов";

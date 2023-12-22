@@ -8,7 +8,6 @@ public class SpawnZone : MonoBehaviour
     
     public GameObject stone;
     public GameObject tree;
-    public int maxEnemy = 5;
 
     public float timeSpawn = 2f;
     private float timer;
@@ -17,13 +16,16 @@ public class SpawnZone : MonoBehaviour
     
     private readonly Vector2 sizeC = new(1f, 1f);
 
+    private Manager manager;
     private void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         timer = timeSpawn;
     }
 
     private void Update()
     {
+        if (manager.maxEnemy == 0) return;
         timer -= Time.deltaTime;
         if (!(timer <= 0)) return;
         timer = timeSpawn;

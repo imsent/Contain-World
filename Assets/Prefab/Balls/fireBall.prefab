@@ -139,6 +139,7 @@ MonoBehaviour:
   damage: 5
   target: {fileID: 0}
   tower: {fileID: 0}
+  spawnObj: {fileID: 7776253045889068044, guid: 9e9d2956ee5227f4b96f9b0341565994, type: 3}
 --- !u!95 &3678035910151864361
 Animator:
   serializedVersion: 7

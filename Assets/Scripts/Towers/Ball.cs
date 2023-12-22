@@ -6,11 +6,14 @@ public class Ball : MonoBehaviour
 {
     public float speed;
 
-    public int damage;
+    public float damage;
+    
+    public GameObject target;
 
-    public EnemyNear target;
+    public GameObject tower;
 
-    public UpTower tower;
+    
+    public GameObject spawnObj;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,9 +41,72 @@ public class Ball : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            if (other.gameObject == target.gameObject)
+            if (other.gameObject == target)
             {
+                switch (other.gameObject.name)
+                {
+                    case "Wizard(Clone)":
+                        switch (name)
+                        {
+                            case "iceBall(Clone)":
+                                damage *= 1.5f;
+                                break;
+                            case "fireBall(Clone)":
+                                damage *= 0.5f;
+                                break;
+                        }
+                        break;
+                    case "Golem(Clone)":
+                        switch (name)
+                        {
+                            case "iceBall(Clone)":
+                                damage *= 0.5f;
+                                break;
+                            case "fireBall(Clone)":
+                                damage *= 1.5f;
+                                break;
+                        }
+                        break;
+                    case "Wisp(Clone)":
+                        damage *= name == "chaosBall(Clone)" ? 1.5f : 0.85f;
+                        break;
+                    
+                }
+                switch (name)
+                {
+                    case "fireBall(Clone)":
+                        if (Random.Range(1, 100) < 10)
+                        {
+                            var postile = GameObject.FindGameObjectWithTag("grid").GetComponent<Grid>().WorldToCell(other.transform.position);
+                            var posPlace = new Vector3(postile.x + 0.5f, postile.y + 0.5f, postile.z);
+                            Instantiate(spawnObj, posPlace, Quaternion.identity);
+                        }
+                        break;
+                    case "iceBall(Clone)":
+                        other.gameObject.GetComponent<EnemyNear>().speed *= 0.9f;
+                        break;
+                    case "chaosBall(Clone)":
+                        damage = Random.Range(2, 10);
+                        break;
+                    case "poisonBall(Clone)":
+                        other.gameObject.GetComponent<EnemyNear>().Bleeding(3f, 5f);
+                        break;
+                }
                 other.gameObject.GetComponent<EnemyNear>().TakeDamage(damage);
+                Destroy(gameObject);
+            }
+        }else if (other.gameObject.CompareTag("Tower"))
+        {
+            if (other.gameObject == target)
+            {
+                other.gameObject.GetComponent<UpTower>().TakeDamage(damage);
+                Destroy(gameObject);
+            }
+        }else if (other.gameObject.CompareTag("Baza"))
+        {
+            if (other.gameObject == target)
+            {
+                other.gameObject.GetComponent<Baza>().TakeDamage(damage);
                 Destroy(gameObject);
             }
         }

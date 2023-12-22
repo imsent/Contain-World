@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -8343796036993792330, guid: c73672360c8fcf5439d2cd31ebdb3a7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -130,11 +130,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  hp: 40
+  hp: 50
+  ball: {fileID: 0}
   attackPos: {fileID: 6460967867747133848}
-  TowerMask:
-    serializedVersion: 2
-    m_Bits: 64
   radius: 0.46
   damage: 5
   startRecharge: 2

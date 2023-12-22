@@ -1,24 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Baza : MonoBehaviour
 {
-    public int hp;
+    public float hp;
+
+    private float maxHP;
 
     public Result result;
-    
-    public Transform spawnPoint;
-
-    public GameObject Error;
 
     public GameObject buildText;
 
     public BuildScript buildScript;
+
+    private SpriteRenderer healthBar;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        maxHP = hp;
+        healthBar = transform.GetChild(1).GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -34,15 +37,10 @@ public class Baza : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         hp -= damage;
-        var go = Instantiate(Error, spawnPoint.localPosition, Quaternion.identity);
-        go.transform.SetParent(spawnPoint.transform,true);
-        go.GetComponent<TMPro.TextMeshPro>().SetText("-" + damage);
-        go.GetComponent<TMPro.TextMeshPro>().fontSize = 2;
-        go.GetComponent<TMPro.TextMeshPro>().color = Color.red;
-        go.name = "no money";
-        Destroy(go,0.5f);
+        healthBar.size = new Vector2(1.4375f, 1.5f*(hp/maxHP));
     }
+    
 }

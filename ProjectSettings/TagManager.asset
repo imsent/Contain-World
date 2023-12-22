@@ -12,6 +12,9 @@ TagManager:
   - Enemy
   - Corpse
   - infection
+  - UI
+  - grid
+  - fire
   layers:
   - Default
   - TransparentFX

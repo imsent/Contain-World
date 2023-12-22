@@ -11,25 +11,22 @@ public class EnemyNear : MonoBehaviour
     public float speed;
     public float hp;
     private float maxHP;
-    private Transform baza;
 
+    public GameObject ball;
+    
     public Transform attackPos;
-    public LayerMask TowerMask;
     public float radius;
-    public int damage;
+    public float damage;
 
     private float recharge;
     public float startRecharge;
-
-    
-    private GameObject closest;
 
     public GameObject nearest;
 
     public GameObject corpse;
 
     private Manager manager;
-    
+
     // Start is called before the first frame update
     
     public SpriteRenderer healthBar;
@@ -37,8 +34,16 @@ public class EnemyNear : MonoBehaviour
     public SpriteRenderer backGround;
 
     private Animator anim;
+
+    private bool bleeding;
+
+    private GameObject Baza;
+    
+    private float timer;
+    private float needTime = 0f;
     void Start()
     {
+        Baza = GameObject.FindGameObjectWithTag("Baza");
         anim = gameObject.GetComponent<Animator>();
         maxHP = hp;
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
@@ -59,7 +64,11 @@ public class EnemyNear : MonoBehaviour
             manager.kills += 1;
             Destroy(gameObject);
         }
-        nearest = FindTower();
+        FindTower();
+        if (nearest == null)
+        {
+            return;
+        }
         anim.SetFloat("swap", Convert.ToSingle(nearest.transform.position.x < transform.position.x));
         if (Vector2.Distance(transform.position, nearest.transform.position) > radius)
         {
@@ -71,27 +80,30 @@ public class EnemyNear : MonoBehaviour
         {
             anim.SetBool("move", false);
             if (!(recharge >= startRecharge)) return;
-            OnAttack();
+            anim.SetTrigger("attack");
             recharge = 0;
             
         }
         
     }
 
-    private GameObject FindTower()
+    private void FindTower()
     {
-        closest = GameObject.FindGameObjectWithTag("Baza");
+        nearest = Baza;
+        if (nearest == null)
+        {
+            return;
+        }
         var position = transform.position;
-        var distance = (closest.transform.position - position).sqrMagnitude;
+        var distance = (nearest.transform.position - position).sqrMagnitude;
         foreach (var tower in GameObject.FindGameObjectsWithTag("Tower"))
         {
             var diff = tower.transform.position - position;
             var curDistance = diff.sqrMagnitude;
             if (!(curDistance < distance)) continue;
-            closest = tower;
+            nearest = tower;
             distance = curDistance;
         }
-        return closest;
     }
     
     public void OnDrawGizmosSelected()
@@ -102,23 +114,68 @@ public class EnemyNear : MonoBehaviour
 
     public void OnAttack()
     {
-        anim.SetBool("attack",true);
-        var tower = Physics2D.OverlapCircleAll(attackPos.position, radius, TowerMask);
-        foreach (var i in tower)
+        switch (name)
         {
-            if (i.gameObject.CompareTag("Baza"))
-            {
-                i.gameObject.GetComponent<Baza>().TakeDamage(damage);
-                return;
-            }
-            i.gameObject.GetComponent<UpTower>().TakeDamage(damage);
+            case "Wizard(Clone)":
+                var newBall = Instantiate(ball, transform.position, Quaternion.identity, transform);
+                newBall.GetComponent<Ball>().target = nearest;
+                newBall.GetComponent<Ball>().tower = gameObject;
+                newBall.GetComponent<Ball>().damage = damage;
+                break;
+            default:
+                if (nearest.gameObject.CompareTag("Baza"))
+                {
+                    nearest.gameObject.GetComponent<Baza>().TakeDamage(damage);
+                    return;
+                }
+                nearest.gameObject.GetComponent<UpTower>().TakeDamage(damage);
+                break;
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         healthBar.size = new Vector2(hp / maxHP, 0.14f);
         hp -= damage;
     }
-    
+
+    public void Bleeding(float time, float damage)
+    {
+        if (bleeding) return;
+        bleeding = true;
+        StartCoroutine(BleedDamage(time, damage));
+    }
+    private IEnumerator BleedDamage(float time, float damage)
+    {
+        var timer = 0f;
+        while (timer < time)
+        {
+            TakeDamage(damage);
+            yield return new WaitForSeconds(1f);
+            timer += 1f;
+        }
+        bleeding = false;
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("fire") && name != "Wisp(Clone)")
+        {
+            timer += Time.deltaTime;
+            if (timer >= needTime)
+            {
+                needTime += 1f;
+                TakeDamage(3);
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("fire"))
+        {
+            timer = 0f;
+            needTime = 0f;
+        }
+    }
 }
