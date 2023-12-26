@@ -44,6 +44,7 @@ public class upgradeBar : MonoBehaviour
     {
         if (manager.kills == needKills)
         {
+            manager.upCount++;
             player.PlaySound(player.sounds[4]);
             needKills += 10;
             var upgradeC = Random.Range(0, 9);

@@ -145,8 +145,8 @@ public class UpTower : Sounds
             {
                 needTimeRegen += 1f;
                 hp += 5;
-                healthBar.size = new Vector2(hp / maxHP, 0.14f);
                 if (hp >= maxHP) hp = maxHP;
+                healthBar.size = new Vector2(hp / maxHP, 0.14f);
             }
         }
     }

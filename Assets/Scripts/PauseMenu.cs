@@ -21,12 +21,10 @@ public class PauseMenu : Sounds
             case false when Time.timeScale == 1f:
                 Time.timeScale = 0f;
                 pauseMenu.SetActive(true);
-                //Cursor.visible = true;
                 break;
             case true:
                 Time.timeScale = 1f;
                 pauseMenu.SetActive(false);
-                //Cursor.visible = false;
                 break;
         }
     }
@@ -40,6 +38,5 @@ public class PauseMenu : Sounds
         PlaySound(sounds[0]);
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
-        //Cursor.visible = false;
     }
 }

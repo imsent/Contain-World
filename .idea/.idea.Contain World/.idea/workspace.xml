@@ -6,48 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="525338f7-3495-43e5-8b90-51243d32b426" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Contain World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contain World/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/attack/attack left+400.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/attack/attack left+400.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/attack/attack+400.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/attack/attack+400.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/idle/idle left+400.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/idle/idle left+400.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/idle/idle+400.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/idle/idle+400.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/walk/run_left+400.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/walk/run_left+400.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/walk/run_right+400.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PRJCT/Enemies/Wizard/walk/run_right+400.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mobs/Golem/Golem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mobs/Golem/Golem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mobs/Wisp/Wisp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mobs/Wisp/Wisp.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mobs/Wizard/Wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mobs/Wizard/Wizard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Rectangle 26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Rectangle 26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Rectangle 27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Rectangle 27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Tower/build.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Tower/build.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/corpse_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/corpse_0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/stone_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/stone_0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/tree_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/tree_0.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyNear.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyNear.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Settings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Settings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Result.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Towers/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Towers/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Towers/Damage.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Towers/Damage.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Towers/UpTower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Towers/UpTower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/enemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/enemySpawn.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/upgradeBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/upgradeBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +61,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Новая папка (3)\Contain World.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Build\Contain World.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\pc312\Desktop\Bild" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -183,6 +149,9 @@
       <workItem from="1703554245459" duration="44000" />
       <workItem from="1703554310324" duration="96000" />
       <workItem from="1703554513083" duration="1150000" />
+      <workItem from="1703627346590" duration="3866000" />
+      <workItem from="1703631656538" duration="15000" />
+      <workItem from="1703631950047" duration="26000" />
     </task>
     <servers />
   </component>
