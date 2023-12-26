@@ -29,23 +29,34 @@ public class SpawnZone : MonoBehaviour
         timer -= Time.deltaTime;
         if (!(timer <= 0)) return;
         timer = timeSpawn;
-        
-        var posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
-        var posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
-        while (CheckSpawn(posSpawn))
+
+
+        if (manager.countStone < 10)
         {
-            posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
-            posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
+            manager.countStone++;
+            var posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
+            var posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
+            while (CheckSpawn(posSpawn))
+            {
+                posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
+                posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
+            }
+            Instantiate(stone, posSpawn, Quaternion.identity, transform);
+
         }
-        Instantiate(stone, posSpawn, Quaternion.identity, transform);
-        posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
-        posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
-        while (CheckSpawn(posTile))
+        if (manager.countTree < 10)
         {
-            posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
-            posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
+            manager.countTree++;
+            var posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
+            var posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
+            while (CheckSpawn(posTile))
+            {
+                posTile = grid.WorldToCell(Random.insideUnitCircle * distance);
+                posSpawn = new Vector3(posTile.x + 0.5f, posTile.y + 0.5f, posTile.z);
+            }
+
+            Instantiate(tree, posSpawn, Quaternion.identity, transform);
         }
-        Instantiate(tree, posSpawn, Quaternion.identity, transform);
     }
 
     private bool CheckSpawn(Vector3 pos)

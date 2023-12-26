@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class UpTower : MonoBehaviour
+public class UpTower : Sounds
 {
     public float hp;
-    private float maxHP;
+    public float maxHP;
     public float protection;
     
 
@@ -19,7 +19,7 @@ public class UpTower : MonoBehaviour
     
     private Manager manager;
 
-    public EnemyNear targetEnemy;
+    public Enemy targetEnemy;
 
     public GameObject ball;
     public int countBall;
@@ -65,6 +65,7 @@ public class UpTower : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        PlaySound(sounds[1]);
         hp -= damage * (1f-protection);
         healthBar.size = new Vector2(hp / maxHP, 0.14f);
         if (!regeneration) return;
@@ -106,6 +107,8 @@ public class UpTower : MonoBehaviour
 
     private void onAttack()
     {
+        
+        PlaySound(sounds[0]);
         for (var i = 0; i < countBall; i++)
         {
             var newBall = Instantiate(ball, transform.position, Quaternion.identity, transform);
@@ -115,15 +118,15 @@ public class UpTower : MonoBehaviour
         }
     }
 
-    private IEnumerable<EnemyNear> GetEnemiesInRange()
+    private IEnumerable<Enemy> GetEnemiesInRange()
     {
         return manager.EnemyList
             .Where(enemy => Vector2.Distance(transform.position, enemy.transform.position) <= radius).ToList();
     }
 
-    private EnemyNear GetNearestEnemy()
+    private Enemy GetNearestEnemy()
     {
-        EnemyNear nearestEnemy = null;
+        Enemy nearestEnemy = null;
         var smallestDistance = float.PositiveInfinity;
         foreach (var enemy in GetEnemiesInRange().Where(enemy => Vector2.Distance(transform.position, enemy.transform.position) < smallestDistance))
         {

@@ -58,7 +58,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.35689, y: 0.35689, z: 0.35689}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3949406067603040823}
   - {fileID: 1732991622077409321}
@@ -142,7 +142,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.02, y: 0.14}
+  m_Size: {x: 1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -226,7 +226,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.02, y: 0.14}
+  m_Size: {x: 1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 1598993877654426018}
   - component: {fileID: 2182138682639023999}
   - component: {fileID: 5390542303897148518}
-  - component: {fileID: 7257543080756216151}
+  - component: {fileID: 1439172388795584268}
   m_Layer: 7
   m_Name: Wizard
   m_TagString: Enemy
@@ -361,12 +361,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43dcc8062ac495d4083dc3e10bb7a4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - {fileID: 8300000, guid: 9568ec54fe704ce4cb8416b39e7938fd, type: 3}
+  - {fileID: 8300000, guid: 7b81b82e2c8693c43886c07cc22d4dd1, type: 3}
   speed: 1
-  hp: 20
+  hp: 25
   ball: {fileID: 7361328884815060456, guid: e62e44843c7fd4a4cb8b676fee64a5f9, type: 3}
   attackPos: {fileID: 1255117886358680130}
-  radius: 0.9
-  damage: 10
+  radius: 1
+  damage: 5
   startRecharge: 2
   nearest: {fileID: 0}
   corpse: {fileID: 8513315894256700480, guid: 37de8f92165cee048bc09571258f70f6, type: 3}
@@ -394,7 +397,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &7257543080756216151
+--- !u!61 &1439172388795584268
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -432,11 +435,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19270833, y: 0.32876587}
+    oldSize: {x: 0.30833334, y: 0.5260254}
     newSize: {x: 0.24, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.19270833, y: 0.31832886}
+  m_Size: {x: 0.30833334, y: 0.5260254}
   m_EdgeRadius: 0

@@ -129,12 +129,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43dcc8062ac495d4083dc3e10bb7a4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - {fileID: 8300000, guid: 8d3003f963f9e214aac8d3a48cdd1984, type: 3}
+  - {fileID: 8300000, guid: fbc112522b1e03f4ca6386b2081216e0, type: 3}
   speed: 1
-  hp: 35
+  hp: 45
   ball: {fileID: 0}
   attackPos: {fileID: 743045785801579123}
   radius: 0.31
-  damage: 5
+  damage: 2
   startRecharge: 2
   nearest: {fileID: 0}
   corpse: {fileID: 8513315894256700480, guid: 37de8f92165cee048bc09571258f70f6, type: 3}
@@ -286,7 +289,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.02, y: 0.14}
+  m_Size: {x: 1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -434,7 +437,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.02, y: 0.14}
+  m_Size: {x: 1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

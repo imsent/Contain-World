@@ -14,8 +14,9 @@ public class upgradeBar : MonoBehaviour
     public GameObject[] balls;
 
     private Manager manager;
+    private Player player;
 
-    private int needKills = 20;
+    private int needKills = 10;
 
     public int nowUpgrade;
     
@@ -24,6 +25,7 @@ public class upgradeBar : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         transform.GetChild(nowUpgrade).GetComponent<Image>().color = active;
         upgradeCount = new int[9];
@@ -42,10 +44,11 @@ public class upgradeBar : MonoBehaviour
     {
         if (manager.kills == needKills)
         {
-            needKills += 20;
+            player.PlaySound(player.sounds[4]);
+            needKills += 10;
             var upgradeC = Random.Range(0, 9);
             upgradeCount[upgradeC] += 1;
-            transform.GetChild(upgradeC).transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = upgradeCount[upgradeC].ToString();
+            transform.GetChild(upgradeC).transform.GetChild(2).GetComponent<Text>().text = upgradeCount[upgradeC].ToString();
         }
     }
 }

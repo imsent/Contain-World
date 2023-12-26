@@ -15,6 +15,7 @@ TagManager:
   - UI
   - grid
   - fire
+  - Sounds
   layers:
   - Default
   - TransparentFX

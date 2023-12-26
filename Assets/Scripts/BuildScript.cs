@@ -38,6 +38,8 @@ public class BuildScript : MonoBehaviour
         var postile = grid.WorldToCell(playerinv.transform.position);
         var posPlace = new Vector3(postile.x + 0.5f, postile.y + 0.5f, postile.z);
         var colliders = Physics2D.OverlapBoxAll(posPlace, sizeC,0);
+        var col = colliders.FirstOrDefault(x => x.CompareTag("Tower"));
+        Debug.Log(col);
         if (colliders.Length == 2 && colliders[1].CompareTag("infection"))
         {
             Instantiate(buildingToPlace, posPlace, Quaternion.identity);
@@ -45,6 +47,16 @@ public class BuildScript : MonoBehaviour
             buildText.SetActive(false);
             manager.towerCountPlace += 1;
             playerinv.inv = null;
+            playerinv.PlaySound(playerinv.sounds[1]);
+        }else if (col != null && col.gameObject.GetComponent<UpTower>().upgradeImage.GetComponent<SpriteRenderer>().sprite != null)
+        {
+            var tower = col.gameObject.GetComponent<UpTower>();
+            tower.hp = tower.maxHP;
+            buildText.SetActive(false);
+            tower.healthBar.size = new Vector2(1, 0.14f);
+            manager.towerCountPlace += 1;
+            playerinv.inv = null;
+            playerinv.PlaySound(playerinv.sounds[1]);
         }
         else
         {

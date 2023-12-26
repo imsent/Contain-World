@@ -75,7 +75,7 @@ public class Ball : MonoBehaviour
                 switch (name)
                 {
                     case "fireBall(Clone)":
-                        if (Random.Range(1, 100) < 10)
+                        if (Random.Range(1, 100) < 30)
                         {
                             var postile = GameObject.FindGameObjectWithTag("grid").GetComponent<Grid>().WorldToCell(other.transform.position);
                             var posPlace = new Vector3(postile.x + 0.5f, postile.y + 0.5f, postile.z);
@@ -83,16 +83,16 @@ public class Ball : MonoBehaviour
                         }
                         break;
                     case "iceBall(Clone)":
-                        other.gameObject.GetComponent<EnemyNear>().speed *= 0.9f;
+                        other.gameObject.GetComponent<Enemy>().speed *= 0.9f;
                         break;
                     case "chaosBall(Clone)":
                         damage = Random.Range(2, 10);
                         break;
                     case "poisonBall(Clone)":
-                        other.gameObject.GetComponent<EnemyNear>().Bleeding(3f, 5f);
+                        other.gameObject.GetComponent<Enemy>().Bleeding(3f, 5f);
                         break;
                 }
-                other.gameObject.GetComponent<EnemyNear>().TakeDamage(damage);
+                other.gameObject.GetComponent<Enemy>().TakeDamage(damage);
                 Destroy(gameObject);
             }
         }else if (other.gameObject.CompareTag("Tower"))

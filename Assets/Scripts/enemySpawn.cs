@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class enemySpawn : MonoBehaviour
 {
@@ -17,11 +18,11 @@ public class enemySpawn : MonoBehaviour
     
     public float timerWave = 10;
     
-    public TextMeshProUGUI timerText;
+    public Text timerText;
 
-    public TextMeshProUGUI waveLvl;
+    public Text waveLvl;
 
-    public TextMeshProUGUI killsText;
+    public Text killsText;
     
     public GameObject WaveTimer;
     

@@ -103,11 +103,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6da1154fe6da6414f80f1e0f9555e3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 50
+  sounds:
+  - {fileID: 8300000, guid: 75300d022f19be44aaf514bafaaa4e3f, type: 3}
+  - {fileID: 8300000, guid: 19cc6799a785e7440b66f82abd54287e, type: 3}
+  hp: 40
   protection: 0
   attackPos: {fileID: 2688022569039193583}
   radius: 2
-  damage: 10
+  damage: 5
   startRecharge: 1
   targetEnemy: {fileID: 0}
   ball: {fileID: 7361328884815060456, guid: 9eac8283e58e5b1489fd98fd19a29e17, type: 3}
@@ -462,7 +465,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.02, y: 0.14}
+  m_Size: {x: 1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -546,7 +549,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.02, y: 0.14}
+  m_Size: {x: 1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

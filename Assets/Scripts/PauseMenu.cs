@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenu : Sounds
 {
     public GameObject pauseMenu;
     // Start is called before the first frame update
@@ -32,10 +32,12 @@ public class PauseMenu : MonoBehaviour
     }
     public void quit()
     {
+        PlaySound(sounds[0]);
         SceneManager.LoadScene("Menu");
     }
     public void resume()
     {
+        PlaySound(sounds[0]);
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
         //Cursor.visible = false;

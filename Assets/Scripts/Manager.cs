@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
-    public List<EnemyNear> EnemyList = new();
+    public List<Enemy> EnemyList = new();
 
     public int kills;
 
@@ -16,6 +16,10 @@ public class Manager : MonoBehaviour
     public int upCount;
 
     public float maxEnemy = 20;
+
+    public int countStone;
+
+    public int countTree;
 
     public upgradeBar upgradeBar;
 
@@ -28,11 +32,11 @@ public class Manager : MonoBehaviour
 
     // Update is called once per frame
 
-    public void AddEnemy(EnemyNear enemy)
+    public void AddEnemy(Enemy enemy)
     {
         EnemyList.Add(enemy);
     }
-    public void RemoveEnemy(EnemyNear enemy)
+    public void RemoveEnemy(Enemy enemy)
     {
         EnemyList.Remove(enemy);
     }
@@ -43,9 +47,10 @@ public class Manager : MonoBehaviour
         {
             tower.upText.SetActive(false);
             player.upVision = false;
+            player.PlaySound(player.sounds[2]);
             var now = upgradeBar.nowUpgrade;
             upgradeBar.upgradeCount[now] -= 1;
-            upgradeBar.transform.GetChild(now).transform.GetChild(2).GetComponent<TMPro.TextMeshProUGUI>().text =
+            upgradeBar.transform.GetChild(now).transform.GetChild(2).GetComponent<Text>().text =
                 upgradeBar.upgradeCount[now].ToString();
             tower.upgradeImage.GetComponent<SpriteRenderer>().sprite = upgradeBar.transform.GetChild(now).GetComponent<Image>().sprite;
             if (now < 4)

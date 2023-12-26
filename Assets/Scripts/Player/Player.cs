@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player : MonoBehaviour
+public class Player : Sounds
 {
     public float speed;
 
@@ -25,16 +25,16 @@ public class Player : MonoBehaviour
     private GameObject res;
     private Image resUp;
     private Image resDown;
-    private TextMeshProUGUI stoneCount;
-    private TextMeshProUGUI treeCount;
+    private Text stoneCount;
+    private Text treeCount;
     
     private GameObject kill;
-    private TextMeshProUGUI corpseCount;
-    private TextMeshProUGUI corpseNeeded;
+    private Text corpseCount;
+    private Text corpseNeeded;
     private Image killFill;
 
     private GameObject infection;
-    private TextMeshProUGUI infectionText;
+    private Text infectionText;
     private Image infectionFill;
 
 
@@ -62,6 +62,8 @@ public class Player : MonoBehaviour
     private Baza Baza;
 
     public GameObject error;
+
+    private GameObject errorNow;
     // Start is called before the first frame update
     void Start()
     {
@@ -70,14 +72,14 @@ public class Player : MonoBehaviour
         res = UI.transform.GetChild(0).gameObject;
         resUp = res.transform.GetChild(0).GetComponent<Image>();
         resDown = res.transform.GetChild(1).GetComponent<Image>();
-        stoneCount = res.transform.GetChild(1).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
-        treeCount = res.transform.GetChild(1).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>();
+        stoneCount = res.transform.GetChild(1).GetChild(0).GetChild(0).GetComponent<Text>();
+        treeCount = res.transform.GetChild(1).GetChild(1).GetChild(0).GetComponent<Text>();
         
         manager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Manager>();
         
         kill = UI.transform.GetChild(2).gameObject;
-        corpseCount = kill.transform.GetChild(2).gameObject.GetComponent<TextMeshProUGUI>();
-        corpseNeeded = kill.transform.GetChild(4).gameObject.GetComponent<TextMeshProUGUI>();
+        corpseCount = kill.transform.GetChild(2).gameObject.GetComponent<Text>();
+        corpseNeeded = kill.transform.GetChild(4).gameObject.GetComponent<Text>();
         killFill = kill.transform.GetChild(0).gameObject.GetComponent<Image>();
         corpseNeeded.text = corpsesNeed.ToString();
         
@@ -87,7 +89,7 @@ public class Player : MonoBehaviour
 
         infection = UI.transform.GetChild(4).gameObject;
         infectionFill = infection.transform.GetChild(0).gameObject.GetComponent<Image>();
-        infectionText = infection.transform.GetChild(1).gameObject.GetComponent<TextMeshProUGUI>();
+        infectionText = infection.transform.GetChild(1).gameObject.GetComponent<Text>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -112,6 +114,7 @@ public class Player : MonoBehaviour
         killFill.fillAmount = corpses / corpsesNeed;
         if (corpses == corpsesNeed)
         {
+            PlaySound(sounds[3]);
             corpses = 0;
             lvl += 1;
             manager.zonePercent += 0.2f;
@@ -141,9 +144,8 @@ public class Player : MonoBehaviour
 
             corpseNeeded.text = corpsesNeed.ToString();
         }
-        direction.x = Input.GetAxisRaw(("Horizontal"));
-        direction.y = Input.GetAxisRaw(("Vertical"));
-        
+        direction.x = Input.GetAxisRaw("Horizontal");
+        direction.y = Input.GetAxisRaw("Vertical");
         anim.SetFloat("Horizontal",direction.x);
         anim.SetFloat("Vertical",direction.y);
         anim.SetFloat("Speed",direction.sqrMagnitude);
@@ -153,8 +155,9 @@ public class Player : MonoBehaviour
     {
         rb.MovePosition(rb.position + direction * (speed * Time.fixedDeltaTime));
     }
+    
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Baza"))
         {
@@ -165,39 +168,28 @@ public class Player : MonoBehaviour
             switch (inv)
             {
                 case "Stone":
+                    manager.countStone--;
                     stones += 1;
                     inv = null;
                     
                     break;
                 case "Tree":
+                    manager.countTree--;
                     trees += 1;
                     inv = null;
                     break;
-                case "Corpse":
-                    corpses += 1;
-                    
-                    inv = null;
-                    break;
             }
+            return;
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!other.gameObject.CompareTag("Tree") && !other.gameObject.CompareTag("Stone") &&
-            !other.gameObject.CompareTag("Corpse")) return;
+        if (other.gameObject.CompareTag("infection")) speed += 0.6f;
+        if (!other.gameObject.CompareTag("Tree") && !other.gameObject.CompareTag("Stone")) return;
 
         if (!string.IsNullOrEmpty(inv)) return;
-        
+        PlaySound(sounds[0]);
         invModel.GetComponent<SpriteRenderer>().sprite = other.gameObject.GetComponent<SpriteRenderer>().sprite;
         invModel.SetActive(true);
         inv = other.gameObject.tag;
         Destroy(other.gameObject.GameObject());
-    }
-
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        if (!upVision && inv != "build") other.gameObject.GetComponent<Baza>().buildText.SetActive(true);
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -206,33 +198,32 @@ public class Player : MonoBehaviour
         {
             upVision = true;
             other.gameObject.GetComponent<UpTower>().upText.SetActive(true);
+            return;
         }
-    }
-
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Baza"))
-        {
-            other.gameObject.GetComponent<Baza>().buildText.SetActive(false);
-        }
-        
+        if (other.gameObject.CompareTag("Baza") && !upVision && inv != "build") other.gameObject.GetComponent<Baza>().buildText.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (other.gameObject.CompareTag("infection")) speed -= 0.6f;
         if (other.gameObject.CompareTag("Tower") && upVision)
         {
             upVision = false;
             other.gameObject.GetComponent<UpTower>().upText.SetActive(false);
+            return;
+        }
+        if (other.gameObject.CompareTag("Baza"))
+        {
+            other.gameObject.GetComponent<Baza>().buildText.SetActive(false);
         }
     }
 
     public void Error(string text)
     {
-        var go = Instantiate(error, transform.GetChild(0).localPosition, Quaternion.identity);
-        go.transform.SetParent(transform.GetChild(0),true);
-        go.GetComponent<TextMeshPro>().SetText(text);
-        Destroy(go,0.5f);
+        if (errorNow != null && errorNow.GetComponent<TextMeshPro>().text == text) return; 
+        errorNow = Instantiate(error, transform.GetChild(0).localPosition, Quaternion.identity);
+        errorNow.transform.SetParent(transform.GetChild(0),true);
+        errorNow.GetComponent<TextMeshPro>().SetText(text);
+        Destroy(errorNow,0.5f);
     }
 }
